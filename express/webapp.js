@@ -32,7 +32,7 @@ app.post('/sound', function(req, res){
   }
   var fullname = data[random].fullname;
   console.log('playing:', fullname);
-  player.play(data[random].fullname, true);
+  player.play(data[random].fullname, false);
 
 });
 
