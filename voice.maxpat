@@ -49,8 +49,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 502.0, 180.0, 85.0, 20.0 ],
-					"text" : "loadmess 500"
+					"patching_rect" : [ 528.0, 187.0, 85.0, 20.0 ],
+					"text" : "loadmess 300"
 				}
 
 			}
@@ -114,7 +114,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 414.0, 111.0, 76.0, 20.0 ],
-					"text" : "delay 15000"
+					"text" : "delay 20000"
 				}
 
 			}
