@@ -11,7 +11,7 @@ window.proceed = function(){
     var words = dataByFileCount[count];
     for (var j = 0; j < words.length; j++){
       var word = words[j];
-      $('#sound-buttons').append('<span sound=' + word + ' class="button">' + word + ' (' + count + ') </span>');
+      $('#sound-buttons').append('<span class=""><a href="#" sound=' + word + ' class="pure-button button">' + word + ' (' + count + ') </a></span>');
     }
   }
 
