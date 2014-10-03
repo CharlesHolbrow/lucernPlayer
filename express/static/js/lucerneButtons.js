@@ -18,8 +18,9 @@ window.proceed = function(){
   // this should be on the client
   $('.button').click(function(){
     sound = this.getAttribute('sound');
+
     if (!sound) return;
-    else $.post('/sound', {sound:sound}, function(data, textStatus, jqXHR){
+    else $.post('/sound', {data:dataByWords[sound]}, function(data, textStatus, jqXHR){
       if (textStatus !== 'success'){
         console.warn(textStatus, jqXHR);
       }
