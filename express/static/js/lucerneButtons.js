@@ -26,4 +26,19 @@ window.proceed = function(){
       }
     });
   })
+
+  document.oncontextmenu = function() {return false;};
+
+  $('.button').mousedown(function(e){ 
+    if( e.button == 2 ) { 
+      $.post('/off', {}, function(data, textStatus, jqXHR){
+        if (textStatus !== 'success'){
+          console.warn(textStatus, jqXHR);
+        }
+      });
+      return false;
+    } 
+    return true; 
+  }); 
+
 }
