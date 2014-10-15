@@ -25,6 +25,8 @@ window.proceed = function(){
         console.warn(textStatus, jqXHR);
       }
     });
+
+    return false;
   })
 
   document.oncontextmenu = function() {return false;};
