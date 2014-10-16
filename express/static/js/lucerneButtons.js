@@ -11,6 +11,7 @@ window.proceed = function(){
     var words = dataByFileCount[count];
     for (var j = 0; j < words.length; j++){
       var word = words[j];
+      // add a button for every word
       $('#sound-buttons').append('<span class=""><a href="#" sound=' + word + ' class="pure-button button">' + word + ' (' + count + ') </a></span>');
     }
   }
@@ -29,18 +30,18 @@ window.proceed = function(){
     return false;
   })
 
+  // on right click...
+  // ...prevent context menu...
   document.oncontextmenu = function() {return false;};
-
-  $('.button').mousedown(function(e){ 
-    if( e.button == 2 ) { 
+  // ... tell the server to turn off all notes.
+  $('.button').mousedown(function(e){
+    if( e.button == 2 ) {
       $.post('/off', {}, function(data, textStatus, jqXHR){
-        if (textStatus !== 'success'){
-          console.warn(textStatus, jqXHR);
-        }
+        if (textStatus !== 'success'){console.warn(textStatus, jqXHR);}
       });
       return false;
-    } 
-    return true; 
+    }
+    return true;
   }); 
 
 }
