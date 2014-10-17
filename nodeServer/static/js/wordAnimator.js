@@ -133,7 +133,7 @@ window.proceed = function(){
 				if (typeof this.originalFontSize !== 'number') 
 					this.originalFontSize = this.size;
 				this.animate({
-					size: Math.floor(largestFontSize + 5),
+					size: this.originalFontSize + 10,
 				}, {
 					duration: 500,
 					easing: "ease-in-out-quadratic",
