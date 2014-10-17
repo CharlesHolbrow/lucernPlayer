@@ -12,7 +12,9 @@ window.dataByWords = null;
 	var wordClusterX = 200;
 	var wordClusterY = 100;
 	var initalAngularVelocityRange = 0.05;
+	var colorPalette = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
 	
+
 
 window.proceed = function(){
 	if (!allData || !dataByFileCount || !dataByWords) return;
@@ -83,7 +85,6 @@ window.proceed = function(){
 
 
 	function createWordCluster(words, x, y){
-		var colorPalette = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
 
 		var fontGradient = linearGradientBetween(smallestFontSize, largestFontSize, words.length);
 		var colors = randomSampleFromArray(colorPalette, words.length);
