@@ -116,7 +116,7 @@ window.proceed = function(){
 			fill: color,
 			shapeType: "rectangular",
 			index: index,
-			font: 'Chaparral Pro',
+			font: 'ChaparralPro-Bold',
 			size: fontSize,
 			opacity: opacity,
 			alpha: 0,
