@@ -1,16 +1,5 @@
 [
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Street Studio, First 30 min.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/", 
-    "words": [
-      "street", 
-      "studio", 
-      "min", 
-      "first"
-    ], 
-    "filename": "Street Studio, First 30 min.wav"
-  }, 
-  {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/01-Traffic Talking Street.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
@@ -24,7 +13,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/02-Into a coffee shop.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
-      "a", 
       "shop", 
       "into", 
       "coffee"
@@ -63,12 +51,11 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/06-City Bells and Street Sounds - Very Nice.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
-      "city", 
       "very", 
-      "street", 
+      "city", 
       "sounds", 
-      "bells", 
-      "nice"
+      "street", 
+      "bells"
     ], 
     "filename": "06-City Bells and Street Sounds - Very Nice.wav"
   }, 
@@ -112,7 +99,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/11-Weird Singing on the Street.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
-      "on", 
       "weird", 
       "street", 
       "singing"
@@ -200,75 +186,82 @@
     "filename": "19-Street Studio Conversation.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetstudio_conversation1_full.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetStudio_conversation1_full.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
       "conversation", 
-      "streetstudio", 
+      "street", 
+      "studio", 
       "full"
     ], 
-    "filename": "streetstudio_conversation1_full.wav"
+    "filename": "streetStudio_conversation1_full.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetstudio_conversation2_part1.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetStudio_conversation2_part1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
       "conversation", 
       "part", 
-      "streetstudio"
+      "street", 
+      "studio"
     ], 
-    "filename": "streetstudio_conversation2_part1.wav"
+    "filename": "streetStudio_conversation2_part1.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetstudio_conversation2_part2.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetStudio_conversation2_part2.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
       "conversation", 
       "part", 
-      "streetstudio"
+      "street", 
+      "studio"
     ], 
-    "filename": "streetstudio_conversation2_part2.wav"
+    "filename": "streetStudio_conversation2_part2.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetstudio_conversation3(family)_full.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetStudio_conversation3(family)_full.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
       "conversation", 
-      "streetstudio", 
+      "street", 
+      "studio", 
       "full", 
       "family"
     ], 
-    "filename": "streetstudio_conversation3(family)_full.wav"
+    "filename": "streetStudio_conversation3(family)_full.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetstudio_conversation3_horn.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetStudio_conversation3_horn.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
       "conversation", 
-      "streetstudio", 
+      "street", 
+      "studio", 
       "horn"
     ], 
-    "filename": "streetstudio_conversation3_horn.wav"
+    "filename": "streetStudio_conversation3_horn.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetstudio_convo1_skateboard.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetStudio_convo1_skateboard.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
-      "skateboard", 
-      "streetstudio", 
-      "convo"
+      "convo", 
+      "street", 
+      "studio", 
+      "skateboard"
     ], 
-    "filename": "streetstudio_convo1_skateboard.wav"
+    "filename": "streetStudio_convo1_skateboard.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetstudio_convo2_wheels.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1/streetStudio_convo2_wheels.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 1", 
     "words": [
+      "convo", 
       "wheels", 
-      "streetstudio", 
-      "convo"
+      "street", 
+      "studio"
     ], 
-    "filename": "streetstudio_convo2_wheels.wav"
+    "filename": "streetStudio_convo2_wheels.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/01-Crickets Cows Train.wav", 
@@ -462,7 +455,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/11-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "11-ZOOM0011_Tr12 render 002.wav"
@@ -580,7 +572,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/12-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "12-ZOOM0011_Tr12 render 002.wav"
@@ -680,7 +671,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/13-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "13-ZOOM0011_Tr12 render 002.wav"
@@ -778,7 +768,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/14-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "14-ZOOM0011_Tr12 render 002.wav"
@@ -876,7 +865,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/15-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "15-ZOOM0011_Tr12 render 002.wav"
@@ -934,7 +922,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/16-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "16-ZOOM0011_Tr12 render 002.wav"
@@ -952,7 +939,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/17-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "17-ZOOM0011_Tr12 render 002.wav"
@@ -970,7 +956,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/18-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "18-ZOOM0011_Tr12 render 002.wav"
@@ -987,7 +972,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/19-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "19-ZOOM0011_Tr12 render 002.wav"
@@ -1006,7 +990,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/20-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "20-ZOOM0011_Tr12 render 002.wav"
@@ -1025,26 +1008,24 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/21-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "21-ZOOM0011_Tr12 render 002.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/22-Bahnalpsee Call Bell .wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/22-Bannalpsee Call Bell .wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
+      "bannalpsee", 
       "call", 
-      "bahnalpsee", 
       "bell"
     ], 
-    "filename": "22-Bahnalpsee Call Bell .wav"
+    "filename": "22-Bannalpsee Call Bell .wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/22-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "22-ZOOM0011_Tr12 render 002.wav"
@@ -1063,7 +1044,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/23-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "23-ZOOM0011_Tr12 render 002.wav"
@@ -1081,26 +1061,24 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/24-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "24-ZOOM0011_Tr12 render 002.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/25-KKL Roly Suitcase.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/25-KKL Rolling Suitcase.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "roly", 
+      "rolling", 
       "kkl", 
       "suitcase"
     ], 
-    "filename": "25-KKL Roly Suitcase.wav"
+    "filename": "25-KKL Rolling Suitcase.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/25-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "25-ZOOM0011_Tr12 render 002.wav"
@@ -1118,7 +1096,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/26-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "26-ZOOM0011_Tr12 render 002.wav"
@@ -1136,7 +1113,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/27-ZOOM0011_Tr12 render 002.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "tr", 
       "render"
     ], 
     "filename": "27-ZOOM0011_Tr12 render 002.wav"
@@ -1156,8 +1132,7 @@
     "words": [
       "high", 
       "heels", 
-      "wood", 
-      "on"
+      "wood"
     ], 
     "filename": "29-High Heels on Wood.wav"
   }, 
@@ -1191,18 +1166,17 @@
     "filename": "32-Talking Voices Texture 2.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/33-Bells Horn RolyWheel Nice Long KKL.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/33-Bells Horn RollingWheel Nice Long KKL.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
       "wheel", 
-      "roly", 
       "long", 
       "horn", 
       "kkl", 
-      "bells", 
-      "nice"
+      "rolling", 
+      "bells"
     ], 
-    "filename": "33-Bells Horn RolyWheel Nice Long KKL.wav"
+    "filename": "33-Bells Horn RollingWheel Nice Long KKL.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/34-Traffic.wav", 
@@ -1227,23 +1201,21 @@
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
       "bridge", 
-      "on", 
-      "horn", 
-      "street", 
       "sounds", 
-      "alpen"
+      "street", 
+      "alpen", 
+      "horn"
     ], 
     "filename": "36-Alpen Horn on the Bridge Street Sounds.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/37-Yodel On the Bidge.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/37-Yodel On the Bridge.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2", 
     "words": [
-      "on", 
-      "bidge", 
+      "bridge", 
       "yodel"
     ], 
-    "filename": "37-Yodel On the Bidge.wav"
+    "filename": "37-Yodel On the Bridge.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 2/38-Yodel Wow.wav", 
@@ -2189,13 +2161,13 @@
     "filename": "14-KKL Distant Laughter.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/15-KKL Wistle.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/15-KKL Whistle.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
       "kkl", 
-      "wistle"
+      "whistle"
     ], 
-    "filename": "15-KKL Wistle.wav"
+    "filename": "15-KKL Whistle.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/16-KKL wooden clatter.wav", 
@@ -2264,7 +2236,6 @@
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
       "cows", 
-      "on", 
       "mountain"
     ], 
     "filename": "22-Cows on the Mountain.wav"
@@ -2273,7 +2244,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/23-On The Mountain.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
-      "on", 
       "mountain"
     ], 
     "filename": "23-On The Mountain.wav"
@@ -2284,8 +2254,7 @@
     "words": [
       "cows", 
       "distance", 
-      "construction", 
-      "with"
+      "construction"
     ], 
     "filename": "24-Construction With Cows In The Distance.wav"
   }, 
@@ -2293,10 +2262,9 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/25-Walking into a pedestrian tunnel.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
-      "a", 
+      "tunnel", 
       "pedestrian", 
       "walking", 
-      "tunnel", 
       "into"
     ], 
     "filename": "25-Walking into a pedestrian tunnel.wav"
@@ -2305,7 +2273,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/26-Birds on Pilatus 3.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
-      "on", 
       "pilatus", 
       "birds"
     ], 
@@ -2315,7 +2282,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/27-Birds on Pilatus .wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
-      "on", 
       "pilatus", 
       "birds"
     ], 
@@ -2325,7 +2291,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/28-Birds on Pilatus.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
-      "on", 
       "pilatus", 
       "birds"
     ], 
@@ -2336,7 +2301,6 @@
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
       "cows", 
-      "on", 
       "pilatus"
     ], 
     "filename": "29-Cows on Pilatus.wav"
@@ -2381,16 +2345,16 @@
     "filename": "33-Pilatus Cows.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/34-Beautiful Moutain Texture Wind Cows.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/34-Beautiful Mountain Texture Wind Cows.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3", 
     "words": [
       "beautiful", 
+      "mountain", 
       "cows", 
-      "moutain", 
       "wind", 
       "texture"
     ], 
-    "filename": "34-Beautiful Moutain Texture Wind Cows.wav"
+    "filename": "34-Beautiful Mountain Texture Wind Cows.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 3/35-Door Lock Rattle.wav", 
@@ -2774,7 +2738,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/bridge_walk_conversations_04a.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "a", 
       "bridge", 
       "conversations", 
       "walk"
@@ -2785,7 +2748,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/bridge_walk_conversations_05a.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "a", 
       "bridge", 
       "conversations", 
       "walk"
@@ -3549,7 +3511,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/exploringRainy_bark_BonIver.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "iver", 
       "exploring", 
       "rainy", 
       "bark", 
@@ -3572,7 +3533,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/exploringRainy_cafe_BonIver.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "iver", 
       "exploring", 
       "rainy", 
       "cafe", 
@@ -3857,14 +3817,14 @@
     "filename": "exploringRainy_whistling.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_duetVox.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_duetVocal.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
       "duet", 
-      "vox"
+      "vocal"
     ], 
-    "filename": "kkl_duetVox.wav"
+    "filename": "kkl_duetVocal.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_flamencoGuitar_1.wav", 
@@ -3877,112 +3837,112 @@
     "filename": "kkl_flamencoGuitar_1.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_flamencoVox_1.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_flamencoVocal_1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
       "flamenco", 
-      "vox"
+      "vocal"
     ], 
-    "filename": "kkl_flamencoVox_1.wav"
+    "filename": "kkl_flamencoVocal_1.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_flamencoVox_2.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_flamencoVocal_2.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
       "flamenco", 
-      "vox"
+      "vocal"
     ], 
-    "filename": "kkl_flamencoVox_2.wav"
+    "filename": "kkl_flamencoVocal_2.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_flamencoVox_3.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_flamencoVocal_3.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
       "flamenco", 
-      "vox"
+      "vocal"
     ], 
-    "filename": "kkl_flamencoVox_3.wav"
+    "filename": "kkl_flamencoVocal_3.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVox_claps.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVocal_claps.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "claps", 
       "kkl", 
-      "vox", 
-      "group"
+      "group", 
+      "vocal"
     ], 
-    "filename": "kkl_groupVox_claps.wav"
+    "filename": "kkl_groupVocal_claps.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVox_claps2.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVocal_claps2.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "claps", 
       "kkl", 
-      "vox", 
-      "group"
+      "group", 
+      "vocal"
     ], 
-    "filename": "kkl_groupVox_claps2.wav"
+    "filename": "kkl_groupVocal_claps2.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVox_claps_1.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVocal_claps_1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "claps", 
       "kkl", 
-      "vox", 
-      "group"
+      "group", 
+      "vocal"
     ], 
-    "filename": "kkl_groupVox_claps_1.wav"
+    "filename": "kkl_groupVocal_claps_1.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVox_claps_2.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVocal_claps_2.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "claps", 
       "kkl", 
-      "vox", 
-      "group"
+      "group", 
+      "vocal"
     ], 
-    "filename": "kkl_groupVox_claps_2.wav"
+    "filename": "kkl_groupVocal_claps_2.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVox_closer.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVocal_closer.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "closer", 
       "kkl", 
-      "vox", 
-      "group"
+      "group", 
+      "vocal"
     ], 
-    "filename": "kkl_groupVox_closer.wav"
+    "filename": "kkl_groupVocal_closer.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVox_closer_1.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVocal_closer_1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "closer", 
       "kkl", 
-      "vox", 
-      "group"
+      "group", 
+      "vocal"
     ], 
-    "filename": "kkl_groupVox_closer_1.wav"
+    "filename": "kkl_groupVocal_closer_1.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVox_streetNoise.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_groupVocal_streetNoise.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
-      "vox", 
+      "noise", 
       "street", 
       "group", 
-      "noise"
+      "vocal"
     ], 
-    "filename": "kkl_groupVox_streetNoise.wav"
+    "filename": "kkl_groupVocal_streetNoise.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_highWhistle.wav", 
@@ -4000,7 +3960,6 @@
     "words": [
       "kkl", 
       "blast", 
-      "nice", 
       "pan", 
       "horn"
     ], 
@@ -4066,34 +4025,34 @@
     "filename": "kkl_rainAmbience.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_soloVox.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_soloVocal.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
-      "vox", 
+      "vocal", 
       "solo"
     ], 
-    "filename": "kkl_soloVox.wav"
+    "filename": "kkl_soloVocal.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_soloVox_1.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_soloVocal_1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
-      "vox", 
+      "vocal", 
       "solo"
     ], 
-    "filename": "kkl_soloVox_1.wav"
+    "filename": "kkl_soloVocal_1.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_soloVox_2.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_soloVocal_2.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "kkl", 
-      "vox", 
+      "vocal", 
       "solo"
     ], 
-    "filename": "kkl_soloVox_2.wav"
+    "filename": "kkl_soloVocal_2.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/kkl_steamshipWheel.wav", 
@@ -4136,138 +4095,137 @@
     "filename": "organ_amazingGrace.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpCascade.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "arp", 
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_1.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_10.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_10.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_11.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_11.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_12.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_12.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_13.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_13.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_2.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_2.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_4.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_4.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_5.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_5.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_6.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_6.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_7.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_7.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_8.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_8.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggio_9.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "arpeggio", 
+      "organ"
+    ], 
+    "filename": "organ_arpeggio_9.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggioCascade.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
       "cascade", 
+      "arpeggio", 
       "organ"
     ], 
-    "filename": "organ_arpCascade.wav"
+    "filename": "organ_arpeggioCascade.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_1.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggioChaos.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "arpegg", 
-      "organ"
+      "arpeggio", 
+      "organ", 
+      "chaos"
     ], 
-    "filename": "organ_arpegg_1.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_10.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_10.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_11.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_11.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_12.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_12.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_13.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_13.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_2.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_2.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_4.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_4.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_5.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_5.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_6.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_6.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_7.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_7.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_8.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_8.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpegg_9.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "organ"
-    ], 
-    "filename": "organ_arpegg_9.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_arpeggChaos.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "arpegg", 
-      "chaos", 
-      "organ"
-    ], 
-    "filename": "organ_arpeggChaos.wav"
+    "filename": "organ_arpeggioChaos.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_bagpipey.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "bagpipey", 
       "organ"
     ], 
     "filename": "organ_bagpipey.wav"
@@ -4276,7 +4234,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_bagpipey_1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "bagpipey", 
       "organ"
     ], 
     "filename": "organ_bagpipey_1.wav"
@@ -4367,14 +4324,14 @@
     "filename": "organ_detuneSpace.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_diminBuild.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_diminishedBuild.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "dimin", 
-      "organ", 
-      "build"
+      "diminished", 
+      "build", 
+      "organ"
     ], 
-    "filename": "organ_diminBuild.wav"
+    "filename": "organ_diminishedBuild.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_dissonant_1.wav", 
@@ -4405,13 +4362,13 @@
     "filename": "organ_dissonantPad.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_dom7.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_dominant7.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "organ", 
-      "dom"
+      "dominant", 
+      "organ"
     ], 
-    "filename": "organ_dom7.wav"
+    "filename": "organ_dominant7.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_fatChord_niceTail.wav", 
@@ -4420,8 +4377,7 @@
       "tail", 
       "chord", 
       "fat", 
-      "organ", 
-      "nice"
+      "organ"
     ], 
     "filename": "organ_fatChord_niceTail.wav"
   }, 
@@ -4496,54 +4452,54 @@
     "filename": "organ_highChirps.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_highVib.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_highVibrato.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "high", 
-      "vib", 
+      "vibrato", 
       "organ"
     ], 
-    "filename": "organ_highVib.wav"
+    "filename": "organ_highVibrato.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_lowOcts.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_lowOctaves.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
+      "octaves", 
       "low", 
-      "organ", 
-      "octs"
-    ], 
-    "filename": "organ_lowOcts.wav"
-  }, 
-  {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_maj6ths.wav", 
-    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
-    "words": [
-      "maj", 
-      "ths", 
       "organ"
     ], 
-    "filename": "organ_maj6ths.wav"
+    "filename": "organ_lowOctaves.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_melody&pizz.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_majorSixths.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
+    "words": [
+      "sixths", 
+      "major", 
+      "organ"
+    ], 
+    "filename": "organ_majorSixths.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_melody&pizzicato.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "melody", 
-      "pizz", 
+      "pizzicato", 
       "organ"
     ], 
-    "filename": "organ_melody&pizz.wav"
+    "filename": "organ_melody&pizzicato.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_minorGliss.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_minorGlissando.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "gliss", 
+      "glissando", 
       "minor", 
       "organ"
     ], 
-    "filename": "organ_minorGliss.wav"
+    "filename": "organ_minorGlissando.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_pedalBuilding.wav", 
@@ -4627,15 +4583,15 @@
     "filename": "organ_softResolution.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_softVibPad.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_softVibratoPad.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "vib", 
+      "vibrato", 
       "pad", 
       "soft", 
       "organ"
     ], 
-    "filename": "organ_softVibPad.wav"
+    "filename": "organ_softVibratoPad.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_squeakyRiff.wav", 
@@ -4721,34 +4677,34 @@
     "filename": "organ_timbreChange.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_upperReg.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_upperRegister.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "upper", 
-      "reg", 
+      "register", 
       "organ"
     ], 
-    "filename": "organ_upperReg.wav"
+    "filename": "organ_upperRegister.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_upperReg_1.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_upperRegister_1.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "upper", 
-      "reg", 
+      "register", 
       "organ"
     ], 
-    "filename": "organ_upperReg_1.wav"
+    "filename": "organ_upperRegister_1.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_upperReg_2.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_upperRegister_2.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
       "upper", 
-      "reg", 
+      "register", 
       "organ"
     ], 
-    "filename": "organ_upperReg_2.wav"
+    "filename": "organ_upperRegister_2.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organ_weirdIntonation.wav", 
@@ -4847,7 +4803,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4/organTour_demo_10a.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/Day 4", 
     "words": [
-      "a", 
       "demo", 
       "tour", 
       "organ"
@@ -5832,12 +5787,12 @@
     "filename": "005_SingingPerformance_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/006_Performace2_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/006_Performance2_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "performace"
+      "performance"
     ], 
-    "filename": "006_Performace2_Lucern.wav"
+    "filename": "006_Performance2_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/007_Yohoohoo_Lucern.wav", 
@@ -5848,12 +5803,12 @@
     "filename": "007_Yohoohoo_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/008_Woha_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/008_Woha_Voice_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "woha"
+      "voice"
     ], 
-    "filename": "008_Woha_Lucern.wav"
+    "filename": "008_Woha_Voice_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/009_LaughingAndSIng_Lucern.wav", 
@@ -5874,12 +5829,12 @@
     "filename": "010_LaughAndSing2_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/011_Ueghh_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/011_Sigh_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "ueghh"
+      "sigh"
     ], 
-    "filename": "011_Ueghh_Lucern.wav"
+    "filename": "011_Sigh_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/012_Performance3_Lucern.wav", 
@@ -5920,7 +5875,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/016_ChildYelling(Needs Noise Reduc_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "reduc", 
       "needs", 
       "noise", 
       "yelling", 
@@ -5941,7 +5895,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/018_SlowRainOnRoof_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "on", 
       "slow", 
       "roof", 
       "rain"
@@ -5975,12 +5928,12 @@
     "filename": "021_Banging_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/022_Conersation_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/022_Conversation_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "conersation"
+      "conversation"
     ], 
-    "filename": "022_Conersation_Lucern.wav"
+    "filename": "022_Conversation_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/023_BellClanging_Lucern.wav", 
@@ -6054,14 +6007,13 @@
     "filename": "031_PanningRainSounds_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/032_NiceLaughandConversation_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/032_NiceLaughAndConversation_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
       "conversation", 
-      "laughand", 
-      "nice"
+      "laugh"
     ], 
-    "filename": "032_NiceLaughandConversation_Lucern.wav"
+    "filename": "032_NiceLaughAndConversation_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/033_CarInRain_Lucern.wav", 
@@ -6106,7 +6058,6 @@
     "words": [
       "load", 
       "car", 
-      "with", 
       "rain"
     ], 
     "filename": "037_CarWithLoadRain_Lucern.wav"
@@ -6140,14 +6091,14 @@
     "filename": "040_LotsOfCars_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/041_BackupBeepandCars_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/041_BackupBeepAndCars_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "beepand", 
+      "beep", 
       "cars", 
       "backup"
     ], 
-    "filename": "041_BackupBeepandCars_Lucern.wav"
+    "filename": "041_BackupBeepAndCars_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/042_LowDopplerEffect_Lucern.wav", 
@@ -6170,14 +6121,14 @@
     "filename": "043_HighDopplerEffect_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/044_GoingOverABump_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/044_GoingOverBump_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "abump", 
+      "bump", 
       "over", 
       "going"
     ], 
-    "filename": "044_GoingOverABump_Lucern.wav"
+    "filename": "044_GoingOverBump_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/045_FasterBumps_Lucern.wav", 
@@ -6311,13 +6262,12 @@
     "filename": "059_SwishCrash_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/060_ClinkEugh_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/060_Clink_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "clink", 
-      "eugh"
+      "clink"
     ], 
-    "filename": "060_ClinkEugh_Lucern.wav"
+    "filename": "060_Clink_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/061_FallingCrash_Lucern.wav", 
@@ -6447,13 +6397,13 @@
     "filename": "074_NoisyVoiceOver_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/075_DraggingandVoice_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/075_DraggingAndVoice_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
       "voice", 
-      "draggingand"
+      "dragging"
     ], 
-    "filename": "075_DraggingandVoice_Lucern.wav"
+    "filename": "075_DraggingAndVoice_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/076_EnglishConversation_Lucern.wav", 
@@ -6496,12 +6446,12 @@
     "filename": "079_Conversation(NeedsNoiseRemoval)_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/080_Laughhuhuhu_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/080_Laugh_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "laughhuhuhu"
+      "laugh"
     ], 
-    "filename": "080_Laughhuhuhu_Lucern.wav"
+    "filename": "080_Laugh_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/081_region_85_Lucern.wav", 
@@ -6524,23 +6474,24 @@
     "filename": "082_BirdCall(NeedsNoiseRemoval_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/083_WaitingfortheSteamShip_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/083_WaitingForTheSteamShip_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
       "ship", 
+      "waiting", 
       "steam", 
-      "waitingforthe"
+      "for"
     ], 
-    "filename": "083_WaitingfortheSteamShip_Lucern.wav"
+    "filename": "083_WaitingForTheSteamShip_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/084_BirdScreach_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/084_BirdScreech_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "screach", 
+      "screech", 
       "bird"
     ], 
-    "filename": "084_BirdScreach_Lucern.wav"
+    "filename": "084_BirdScreech_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/085_BangDelay_Lucern.wav", 
@@ -6599,8 +6550,7 @@
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
       "rolling", 
-      "chains", 
-      "with"
+      "chains"
     ], 
     "filename": "091_RollingWithChains_Lucern.wav"
   }, 
@@ -6671,15 +6621,15 @@
     "filename": "098_TrafficSoundsBrakeSqueak_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/099_DoorsClosingClicksandBeeps_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/099_DoorsClosingClicksAndBeeps_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "closing", 
       "beeps", 
-      "doors", 
-      "clicksand"
+      "closing", 
+      "clicks", 
+      "doors"
     ], 
-    "filename": "099_DoorsClosingClicksandBeeps_Lucern.wav"
+    "filename": "099_DoorsClosingClicksAndBeeps_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/100_CarMotor_Lucern.wav", 
@@ -6737,14 +6687,15 @@
     "filename": "105_VerySpicyTomato_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/106_AmbientTalkingatShop_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/106_AmbientTalkingAtShop_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
       "shop", 
-      "talkingat", 
+      "talking", 
+      "at", 
       "ambient"
     ], 
-    "filename": "106_AmbientTalkingatShop_Lucern.wav"
+    "filename": "106_AmbientTalkingAtShop_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/107_Footsteps_Lucern.wav", 
@@ -6755,13 +6706,12 @@
     "filename": "107_Footsteps_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/108_YooGirls_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/108_Girls_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "yoo", 
       "girls"
     ], 
-    "filename": "108_YooGirls_Lucern.wav"
+    "filename": "108_Girls_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/109_TalkingOutsideAmbience_Lucern.wav", 
@@ -6774,14 +6724,14 @@
     "filename": "109_TalkingOutsideAmbience_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/110_WalkingClickandBike_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/110_WalkingClickAndBike_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "bike", 
       "walking", 
-      "clickand"
+      "bike", 
+      "click"
     ], 
-    "filename": "110_WalkingClickandBike_Lucern.wav"
+    "filename": "110_WalkingClickAndBike_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/111_BoysTalking_Lucern.wav", 
@@ -6810,13 +6760,13 @@
     "filename": "113_FunnyWords_Lucern.wav"
   }, 
   {
-    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/114_ThudandClanks_Lucern.wav", 
+    "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/114_ThudAndClanks_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
       "clanks", 
-      "thudand"
+      "thud"
     ], 
-    "filename": "114_ThudandClanks_Lucern.wav"
+    "filename": "114_ThudAndClanks_Lucern.wav"
   }, 
   {
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/115_WalkingStairs_Lucern.wav", 
@@ -6850,7 +6800,6 @@
     "fullname": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples/118_StairsWithBreathing_Lucern.wav", 
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
-      "with", 
       "breathing", 
       "stairs"
     ], 
@@ -6879,7 +6828,6 @@
     "root": "/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/LucerneBinauralSamples", 
     "words": [
       "talking", 
-      "with", 
       "children", 
       "scream"
     ], 
@@ -6918,5 +6866,981 @@
       "talking"
     ], 
     "filename": "125_Talking_Lucern.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/000-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "000-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/001-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "001-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/002-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "002-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/003-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "003-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/004-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "004-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/005-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "005-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/006-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "006-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/007-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "007-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/008-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "008-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/009-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "009-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/010-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "010-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/011-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "011-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/012-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "012-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/013-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "013-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/014-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "014-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/015-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "015-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/016-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "016-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/017-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "017-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/018-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "018-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/019-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "019-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/020-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "020-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/021-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "021-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/022-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "022-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/023-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "023-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/024-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "024-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/025-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "025-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/026-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "026-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/027-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "027-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/028-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "028-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/029-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "029-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/030-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "030-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/031-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "031-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/032-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "032-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/033-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "033-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/034-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "034-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/035-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "035-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/036-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "036-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/037-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "037-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/038-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "038-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/039-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "039-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/040-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "040-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/041-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "041-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/042-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "042-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/043-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "043-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/044-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "044-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/045-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "045-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/046-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "046-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/047-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "047-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/048-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "048-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/049-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "049-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/050-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "050-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/051-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "051-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/052-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "052-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/053-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "053-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/054-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "054-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/055-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "055-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/056-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "056-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/057-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "057-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/058-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "058-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/059-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "059-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/060-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "060-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/061-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "061-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/062-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "062-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/063-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "063-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/064-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "064-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/065-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "065-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/066-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "066-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/067-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "067-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/068-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "068-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/069-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "069-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/070-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "070-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/071-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "071-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/072-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "072-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/073-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "073-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/074-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "074-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/075-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "075-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/076-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "076-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/077-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "077-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/078-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "078-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/079-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "079-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/080-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "080-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/081-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "081-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/082-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "082-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/083-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "083-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/084-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "084-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/085-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "085-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/086-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "086-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/087-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "087-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/088-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "088-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/089-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "089-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/090-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "090-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/091-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "091-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/092-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "092-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/093-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "093-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/094-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "094-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/095-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "095-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/096-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "096-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/097-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "097-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/098-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "098-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/099-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "099-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/100-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "100-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/101-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "101-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/102-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "102-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/103-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "103-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/104-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "104-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/105-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "105-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/106-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "106-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/107-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "107-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/108-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "108-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/109-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "109-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/110-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "110-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/111-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "111-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/112-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "112-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/1A-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "1A-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/1B-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "1B-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/1C-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "1C-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/2A-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "2A-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/2B-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "2B-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/3A-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "3A-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/3B-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "3B-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/3C-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "3C-LucerneOrchestraSession-August26-2014.wav"
+  }, 
+  {
+    "fullname": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples/3D-LucerneOrchestraSession-August26-2014.wav", 
+    "root": "/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples", 
+    "words": [
+      "orchestra"
+    ], 
+    "filename": "3D-LucerneOrchestraSession-August26-2014.wav"
   }
 ]
