@@ -13,7 +13,6 @@ window.dataByWords = null;
 	var wordClusterY = 100;
 	var initalAngularVelocityRange = 0.05;
 	var colorPalette = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
-	
 
 
 window.proceed = function(){
@@ -39,19 +38,8 @@ window.proceed = function(){
 	}
 
 	var textAndSounds = [{"text":"Fire","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.trotamundo.Brunnen vor dem Krienbrückli.1408045646836.m4a", "http://symphonyforlucerne.ch/upload/upload/Lucerne.GizemGumuskaya.Alpine horn player lets out a yell !.1409505997521.mp3"]},{"text":"Water","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.trotamundo.Rega Helicopter.1408046019441.m4a"]},{"text":"Grass","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.trotamundo.VBL Durchsage.1408218081065.m4a"]},{"text":"Psychic","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.trotamundo.Reuss.1408218527569.m4a"]},{"text":"Ice","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.fawrkes.Sounds of Lost.1408551304852.wav"]},{"text":"Ground","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.Zauberlehrling.im Bus .1408717329808.wav"]},{"text":"Fighting","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.Zauberlehrling.Warten auf den ersten Takt.1408783457466.wav"]},{"text":"Rock","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.GizemGumuskaya.A chanter and an Italian tourist's duo.1409469857248.mp3"]},{"text":"Flying","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.GizemGumuskaya.Alpine Horn on the Chapel Bridge.1409475060258.mp3"]},{"text":"Steel","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.GizemGumuskaya.Young people are jamming by the KKL fountain.1409504081535.mp3"]},{"text":"Ghost","sounds":["http://symphonyforlucerne.ch/upload/upload/Lucerne.GizemGumuskaya.Cowbells.1409504257722.mp3"]}];
-
-	// function initialize(){
-	// 	getTextAndSounds().done(function(result){
-	// 		textAndSounds = result;
-	// 		console.log(result);
-	// 	}).fail(function(e){
-	// 		console.log(e);
-	// 	})
-	// }
-
 	
 	var colors = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
-
 
 
 	function randomInArray(array){
@@ -149,39 +137,6 @@ window.proceed = function(){
 	}
 	var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY);
 
-	// // initialize();
-	// console.log(textAndSounds);
-	// var selectedTextObjects = selectedWords.map(function(text, index){
-	// 	return canvas.display.text({
-	// 		x: Math.random()*canvas.width,
-	// 		y: Math.random()*canvas.height,
-	// 		origin: {x: "center", y:"center"},
-	// 		text: text,
-	// 		fill: randomInArray(colors),
-	// 		shapeType: "rectangular",
-	// 		index: index,
-	// 		font: 'Chaparral Pro',
-	// 		size: 40 + Math.random()*30,
-	// 		alpha: 0,
-	// 		omega: 0,
-	// 		rotation: 50 + Math.random()*100
-	// 	});
-	// })
-	// $.each(selectedTextObjects, function(index, value){//THIS INDEX DOES NOT CORESSPOND TO ORIGINAL INDEX!!!!!!! CHANGE
-	// 	value.bind("mouseenter touchenter", function(e){
-	// 		//alert("TOUCHED" + value.text);
-	// 		playSound(value.text);
-	// 	});
-	// 	canvas.addChild(value);
-
-	// });
-
-
-
-	// function chooseRandomSong(index){
-	// 	var sounds = textAndSounds[index].sounds;
-	// 	return sounds[Math.floor(Math.random()*sounds.length)];
-	// }
 
 	
 	function playSound(text){
@@ -191,7 +146,6 @@ window.proceed = function(){
         	}
       	})
 	}
-
 
 
 	//ANIMATION
@@ -267,7 +221,6 @@ window.proceed = function(){
 			// forceField(value);
 			// recycle(value);
 		});
-		//console.log(soundPlayed);
 
 	});
 	canvas.timeline.start();
