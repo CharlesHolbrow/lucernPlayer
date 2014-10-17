@@ -2,6 +2,18 @@ window.allData = null;
 window.dataByFileCount = null;
 window.dataByWords = null;
 
+//PARAMETERS
+	var smallestFontSize = 40;
+	var largestFontSize = 80;
+	var lowestOpacity = 0.6;
+	var highestOpacity = 1.0;
+	var wordClusterWidthScale = 0.25;
+	var wordClusterHeightScale = 0.6;
+	var wordClusterX = 200;
+	var wordClusterY = 100;
+	var initalAngularVelocityRange = 0.05;
+	
+
 window.proceed = function(){
 	if (!allData || !dataByFileCount || !dataByWords) return;
 
@@ -16,7 +28,7 @@ window.proceed = function(){
 	});
 
 	canvas.addChild(image);
-	var selectedWords = randomSliceFromArray(words, 10);
+	var selectedWords = randomSampleFromArray(words, 10);
 	console.log(selectedWords);
 
 	function getTextAndSounds(){//0 indexed
@@ -43,51 +55,134 @@ window.proceed = function(){
 	function randomInArray(array){
 		return array[Math.floor(Math.random()*array.length)];
 	}
-	function randomSliceFromArray(array, length){
+	function randomSampleFromArray(array, n){
+		return repeatStoreInArray(function(){return randomInArray(array)},n);
+	}
+
+	function repeatStoreInArray(f, n){
 		var slices = [];
-		for(var i = 0; i < length; i++){
-			slices.push(randomInArray(array));
+		for(var i = 0; i < n; i++){
+			slices.push(f());
 		}
 		return slices;
 	}
 
 
-
-	// initialize();
-	console.log(textAndSounds);
-	var selectedTextObjects = selectedWords.map(function(text, index){
-		return canvas.display.text({
-			x: Math.random()*canvas.width,
-			y: Math.random()*canvas.height,
-			origin: {x: "center", y:"center"},
-			text: text,
-			fill: randomInArray(colors),
-			shapeType: "rectangular",
-			index: index,
-			font: 'Chaparral Pro',
-			size: 40 + Math.random()*30,
-			alpha: 0,
-			omega: 0,
-			rotation: 50 + Math.random()*100
-		});
-	})
-
-	function chooseRandomSong(index){
-		var sounds = textAndSounds[index].sounds;
-		return sounds[Math.floor(Math.random()*sounds.length)];
+	function randomNumberBetween(lower, upper){
+		return lower + Math.random()*(upper-lower);
+	}
+	function linearGradientBetween(lower, upper, n){
+		var slices = [];
+		var delta = (upper-lower)/n;
+		console.log(delta);
+		for(var i = 0; i < n; i++){
+			slices.push(lower + i * delta);
+		}
+		return slices;
 	}
 
 
-	console.log(selectedTextObjects);
+	function createWordCluster(words, x, y){
+		var colorPalette = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
 
-	$.each(selectedTextObjects, function(index, value){//THIS INDEX DOES NOT CORESSPOND TO ORIGINAL INDEX!!!!!!! CHANGE
-		value.bind("mouseenter touchenter", function(e){
-			//alert("TOUCHED" + value.text);
-			playSound(value.text);
+		var fontGradient = linearGradientBetween(smallestFontSize, largestFontSize, words.length);
+		var colors = randomSampleFromArray(colorPalette, words.length);
+
+		
+		console.log(randomNumberBetween(lowestOpacity, highestOpacity))
+		var opacities = repeatStoreInArray(function(){return randomNumberBetween(lowestOpacity, highestOpacity)}, words.length);
+
+		var positionYGradient = linearGradientBetween(0, 1.0, words.length);
+
+
+		var wordsAndParameters = _.zip(words, fontGradient, colors, opacities, positionYGradient);
+
+
+		console.log(wordsAndParameters); //fontSize, color, opacity
+
+		console.log(colors);
+		console.log(opacities);
+
+		var parentRectangle = canvas.display.rectangle({
+			width: canvas.width * wordClusterWidthScale,
+			height: canvas.height * wordClusterHeightScale,
+			x: x,
+			y: y,
+			origin: {x: "center", y: "center"}
+		}).add();
+
+
+		var wordObjects = wordsAndParameters.map(function(paramaters, index){
+			var text = paramaters[0];
+			var fontSize = paramaters[1];
+			var color = paramaters[2];
+			var opacity = paramaters[3];
+			var positionY = paramaters[4];
+
+			return canvas.display.text({
+			x: Math.random()*parentRectangle.width,
+			y: positionY*parentRectangle.height,
+			origin: {x: "center", y:"center"},
+			text: text,
+			fill: color,
+			shapeType: "rectangular",
+			index: index,
+			font: 'Chaparral Pro',
+			size: fontSize,
+			opacity: opacity,
+			alpha: 0,
+			omega: randomNumberBetween(-initalAngularVelocityRange, initalAngularVelocityRange)
+			});
+		})
+
+		$.each(wordObjects, function(index, value){
+			value.bind("mouseenter touchenter", function(e){
+				//alert("TOUCHED" + value.text);
+				playSound(value.text);
+			});
+			parentRectangle.addChild(value);
 		});
-		canvas.addChild(value);
+		return wordObjects;
 
-	});
+
+	}
+	var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY);
+
+	// // initialize();
+	// console.log(textAndSounds);
+	// var selectedTextObjects = selectedWords.map(function(text, index){
+	// 	return canvas.display.text({
+	// 		x: Math.random()*canvas.width,
+	// 		y: Math.random()*canvas.height,
+	// 		origin: {x: "center", y:"center"},
+	// 		text: text,
+	// 		fill: randomInArray(colors),
+	// 		shapeType: "rectangular",
+	// 		index: index,
+	// 		font: 'Chaparral Pro',
+	// 		size: 40 + Math.random()*30,
+	// 		alpha: 0,
+	// 		omega: 0,
+	// 		rotation: 50 + Math.random()*100
+	// 	});
+	// })
+	// $.each(selectedTextObjects, function(index, value){//THIS INDEX DOES NOT CORESSPOND TO ORIGINAL INDEX!!!!!!! CHANGE
+	// 	value.bind("mouseenter touchenter", function(e){
+	// 		//alert("TOUCHED" + value.text);
+	// 		playSound(value.text);
+	// 	});
+	// 	canvas.addChild(value);
+
+	// });
+
+
+
+	// function chooseRandomSong(index){
+	// 	var sounds = textAndSounds[index].sounds;
+	// 	return sounds[Math.floor(Math.random()*sounds.length)];
+	// }
+
+	
 	function playSound(text){
 		$.post('/sound', {data:dataByWords[text]}, function(data, textStatus, jqXHR){
       		if (textStatus !== 'success'){
@@ -124,7 +219,7 @@ window.proceed = function(){
 	function flutter(text){
 		var desired = 0;
 		var k1 = 0.0003;//acceleration of gravity
-		var b = 0.01;//damping coefficient
+		var b = 0;//damping coefficient
 
 
 		var forceGravity = k1*(desired - text.rotation);
@@ -162,12 +257,14 @@ window.proceed = function(){
 			text.y = canvas.height + text.height;
 		}
 	}
+
+
 	canvas.setLoop(function(){
-		$.each(selectedTextObjects, function(index, value){
+		$.each(wordCluster, function(index, value){
 			//brownian(value);
 			flutter(value);
-			forceField(value);
-			recycle(value);
+			// forceField(value);
+			// recycle(value);
 		});
 		//console.log(soundPlayed);
 
