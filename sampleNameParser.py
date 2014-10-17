@@ -7,7 +7,7 @@ import json
 
 class WavDatum():
 
-  restricted = set(['wav', '', 'the', 'in', 'zoom', 'shot', 'lucern', 'day', 'and', 'to'])
+  restricted = set(['wav', '', 'the', 'in', 'zoom', 'shot', 'lucern', 'lucerne', 'session','august','day', 'and', 'to','reduc','woha','a','b','c','d','with','nice','on','tr','iver','vs','bagpipey'])
 
   def __init__(self, root, filename):
     self.root = root
@@ -34,16 +34,22 @@ class WavDatumEncoder(json.JSONEncoder):
     return json.JSONEncoder.default(self, obj)
 
 
-path = '/Volumes/Transcend/Renders_MondayAugust29,2014/'
-path = '/Users/charlesholbrow/Projects/Meteor/beautiful/'
-path = '/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/'
+#path = '/Volumes/Transcend/Renders_MondayAugust29,2014/'
+path1 = '/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/'
+path2 = '/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples'
 
-# get datum for each file
+# function to get datum for each file in a given location
+
+def wavDataCollect(path,array):
+  for root, dirs, files in os.walk(path):
+    for f in files:
+      if f.lower().endswith('.wav'):
+        array.append(WavDatum(root,f));
+
+#collect data from multiple paths
 wavData = []
-for root, dirs, files in os.walk(path):
-  for f in files:
-    if f.lower().endswith('.wav'):
-      wavData.append(WavDatum(root,f))
+wavDataCollect(path1,wavData)
+wavDataCollect(path2,wavData)
 
 
 # dictionary of words with array containing each data object
@@ -66,12 +72,12 @@ for word, dataArray in dataByWords.iteritems():
 
 # print each word, along with a list of filenames
 # for word, dataArray in dataByWords.iteritems():
-#   print word, [data.filename for data in dataArray]
+# print word, [data.filename for data in dataArray]
 
 for count, word in dataByFileCount.iteritems():
   print count, word
 
-print json.dumps(dataByWords['sing'], cls=WavDatumEncoder, indent=2)
+#print json.dumps(dataByWords['sing'], cls=WavDatumEncoder, indent=2)
 
 with open('dataByWords.json', 'w') as outfile:
   json.dump(dataByWords, outfile, cls=WavDatumEncoder, indent=2)
@@ -81,3 +87,5 @@ with open('dataByFileCount.json', 'w') as outfile:
 
 with open('allData.json', 'w') as outfile:
   json.dump(wavData, outfile, cls=WavDatumEncoder, indent=2)
+
+print 'we did it!!'
