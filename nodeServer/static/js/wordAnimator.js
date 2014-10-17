@@ -4,7 +4,7 @@ window.dataByWords = null;
 
 //PARAMETERS
 	var smallestFontSize = 40;
-	var largestFontSize = 80;
+	var largestFontSize = 70;
 	var lowestOpacity = 0.6;
 	var highestOpacity = 1.0;
 	var wordClusterWidthScale = 0.25;
@@ -109,25 +109,44 @@ window.proceed = function(){
 			var positionY = paramaters[4];
 
 			return canvas.display.text({
-			x: Math.random()*parentRectangle.width,
-			y: positionY*parentRectangle.height,
-			origin: {x: "center", y:"center"},
-			text: text,
-			fill: color,
-			shapeType: "rectangular",
-			index: index,
-			font: 'ChaparralPro-Bold',
-			size: fontSize,
-			opacity: opacity,
-			alpha: 0,
-			omega: randomNumberBetween(-initalAngularVelocityRange, initalAngularVelocityRange)
+				x: Math.random()*parentRectangle.width,
+				y: positionY*parentRectangle.height,
+				origin: {x: "center", y:"center"},
+				text: text,
+				fill: color,
+				shapeType: "rectangular",
+				index: index,
+				font: 'ChaparralPro-Bold',
+				size: fontSize,
+				opacity: opacity,
+				alpha: 0,
+				omega: randomNumberBetween(-initalAngularVelocityRange, initalAngularVelocityRange)
 			});
 		})
 
 		$.each(wordObjects, function(index, value){
+
 			value.bind("mouseenter touchenter", function(e){
-				//alert("TOUCHED" + value.text);
 				playSound(value.text);
+
+				// animate size
+				if (typeof this.originalFontSize !== 'number') 
+					this.originalFontSize = this.size;
+				this.animate({
+					size: Math.floor(largestFontSize + 5),
+				}, {
+					duration: 500,
+					easing: "ease-in-out-quadratic",
+					callback: function(){
+						value.animate({
+							size: this.originalFontSize
+						}, {
+							duration: 600,
+							easing: "ease-in-out-quadratic"
+						})
+					}
+				})
+
 			});
 			parentRectangle.addChild(value);
 		});
