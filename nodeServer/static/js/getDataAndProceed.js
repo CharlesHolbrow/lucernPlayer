@@ -4,7 +4,7 @@ $.get('json/allData.json', {}, function(data, textStatus, jqXHR){
     return;
   }
   window.allData = data;
-  proceed()
+  considerProceed()
 });
 
 $.get('json/dataByFileCount.json', {}, function(data, textStatus, jqXHR){
@@ -13,7 +13,7 @@ $.get('json/dataByFileCount.json', {}, function(data, textStatus, jqXHR){
     return;
   }
   window.dataByFileCount = data;
-  proceed()
+  considerProceed()
 });
 
 $.get('json/dataByWords.json', {}, function(data, textStatus, jqXHR){
@@ -22,5 +22,9 @@ $.get('json/dataByWords.json', {}, function(data, textStatus, jqXHR){
     return;
   }
   window.dataByWords = data;
-  proceed()
+  considerProceed()
 });
+
+var considerProceed = function(){
+  if (allData && dataByFileCount && dataByWords) proceed();
+}
