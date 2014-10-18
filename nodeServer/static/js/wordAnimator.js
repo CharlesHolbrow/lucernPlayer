@@ -2,18 +2,22 @@ window.allData = null;
 window.dataByFileCount = null;
 window.dataByWords = null;
 
-//PARAMETERS
-	var smallestFontSize = 40;
-	var largestFontSize = 80;
-	var lowestOpacity = 0.6;
-	var highestOpacity = 1.0;
-	var wordClusterWidthScale = 0.25;
-	var wordClusterHeightScale = 0.6;
-	var wordClusterX = 200;
-	var wordClusterY = 100;
-	var initalAngularVelocityRange = 0.05;
-	var colorPalette = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
 
+var wordCloudParamaters = {
+	smallestFontSize:40,
+	largestFontSize:80,
+	lowestOpacity:0.6,
+	highestOpacity:1.0,
+	wordClusterWidthScale:0.25,
+	wordClusterHeightScale:0.6,
+	wordClusterX:200,
+	wordClusterY:100,
+	initalAngularVelocityRange:0.05,
+	colorPalette:["#888888","#9999aa","#bbbbbb","#FFFFFF","#000000","#000000","#FFFFFF"]
+}
+
+var wordClusterX = 200;
+var wordClusterY = 100;
 
 window.proceed = function(){
 	if (!allData || !dataByFileCount || !dataByWords) return;
@@ -72,14 +76,14 @@ window.proceed = function(){
 	}
 
 
-	function createWordCluster(words, x, y){
+	function createWordCluster(words, x, y, p){//p for paramaters
 
-		var fontGradient = linearGradientBetween(smallestFontSize, largestFontSize, words.length);
-		var colors = randomSampleFromArray(colorPalette, words.length);
+		var fontGradient = linearGradientBetween(p.smallestFontSize, p.largestFontSize, words.length);
+		var colors = randomSampleFromArray(p.colorPalette, words.length);
 
 		
-		console.log(randomNumberBetween(lowestOpacity, highestOpacity))
-		var opacities = repeatStoreInArray(function(){return randomNumberBetween(lowestOpacity, highestOpacity)}, words.length);
+		console.log(randomNumberBetween(p.lowestOpacity, p.highestOpacity))
+		var opacities = repeatStoreInArray(function(){return randomNumberBetween(p.lowestOpacity, p.highestOpacity)}, words.length);
 
 		var positionYGradient = linearGradientBetween(0, 1.0, words.length);
 
@@ -93,8 +97,8 @@ window.proceed = function(){
 		console.log(opacities);
 
 		var parentRectangle = canvas.display.rectangle({
-			width: canvas.width * wordClusterWidthScale,
-			height: canvas.height * wordClusterHeightScale,
+			width: canvas.width * p.wordClusterWidthScale,
+			height: canvas.height * p.wordClusterHeightScale,
 			x: x,
 			y: y,
 			origin: {x: "center", y: "center"}
@@ -120,7 +124,7 @@ window.proceed = function(){
 			size: fontSize,
 			opacity: opacity,
 			alpha: 0,
-			omega: randomNumberBetween(-initalAngularVelocityRange, initalAngularVelocityRange)
+			omega: randomNumberBetween(-p.initalAngularVelocityRange, p.initalAngularVelocityRange)
 			});
 		})
 
@@ -135,7 +139,7 @@ window.proceed = function(){
 
 
 	}
-	var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY);
+	var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY, wordCloudParamaters);
 
 
 	
