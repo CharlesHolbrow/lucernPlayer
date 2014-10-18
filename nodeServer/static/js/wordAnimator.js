@@ -3,26 +3,45 @@ window.dataByFileCount = null;
 window.dataByWords = null;
 
 
-var wordCloudParamaters = {
+var wordClusterParameters1 = {
 	smallestFontSize:40,
 	largestFontSize:80,
 	lowestOpacity:0.6,
 	highestOpacity:1.0,
 	wordClusterWidthScale:0.25,
 	wordClusterHeightScale:0.6,
-	wordClusterX:200,
-	wordClusterY:100,
 	initalAngularVelocityRange:0.05,
 	colorPalette:["#888888","#9999aa","#bbbbbb","#FFFFFF","#000000","#000000","#FFFFFF"]
 }
-
-var wordClusterX = 200;
-var wordClusterY = 100;
+var wordClusterParameters2 = {
+	smallestFontSize:40,
+	largestFontSize:80,
+	lowestOpacity:0.6,
+	highestOpacity:1.0,
+	wordClusterWidthScale:0.1,
+	wordClusterHeightScale:0.3,
+	initalAngularVelocityRange:0.05,
+	colorPalette:["#222222","#111111","#111111","#000000","#000000","#FFFFFF","#FFFFFF"]
+}
+var wordClusterLayout = [
+	{
+		wordClusterParameters: wordClusterParameters1,
+		x: 200,
+		y: 100,
+		numberOfWords: 10
+	},
+	{
+		wordClusterParameters: wordClusterParameters2,
+		x: 900,
+		y: 400,
+		numberOfWords: 3
+	}
+]
 
 window.proceed = function(){
 	if (!allData || !dataByFileCount || !dataByWords) return;
 
-	var words = Object.keys(dataByWords);
+	var allWords = Object.keys(dataByWords);
 	var canvas = oCanvas.create({ canvas: "#canvas", background: "#222" });	
 
 	var image = canvas.display.image({
@@ -33,8 +52,8 @@ window.proceed = function(){
 	});
 
 	canvas.addChild(image);
-	var selectedWords = randomSampleFromArray(words, 10);
-	console.log(selectedWords);
+	//var selectedWords = randomSampleFromArray(words, 10);
+	//console.log(selectedWords);
 
 	function getTextAndSounds(){//0 indexed
 		return $.get("http://localhost:4730/data", function(data){
@@ -76,7 +95,7 @@ window.proceed = function(){
 	}
 
 
-	function createWordCluster(words, x, y, p){//p for paramaters
+	function createWordCluster(words, x, y, p){//p for parameters
 
 		var fontGradient = linearGradientBetween(p.smallestFontSize, p.largestFontSize, words.length);
 		var colors = randomSampleFromArray(p.colorPalette, words.length);
@@ -105,12 +124,12 @@ window.proceed = function(){
 		}).add();
 
 
-		var wordObjects = wordsAndParameters.map(function(paramaters, index){
-			var text = paramaters[0];
-			var fontSize = paramaters[1];
-			var color = paramaters[2];
-			var opacity = paramaters[3];
-			var positionY = paramaters[4];
+		var wordObjects = wordsAndParameters.map(function(parameters, index){
+			var text = parameters[0];
+			var fontSize = parameters[1];
+			var color = parameters[2];
+			var opacity = parameters[3];
+			var positionY = parameters[4];
 
 			return canvas.display.text({
 			x: Math.random()*parentRectangle.width,
@@ -139,7 +158,15 @@ window.proceed = function(){
 
 
 	}
-	var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY, wordCloudParamaters);
+
+	var wordClusters = wordClusterLayout.map(function(value, index){
+		var chosenWords = randomSampleFromArray(allWords, value.numberOfWords);
+		console.log(value);
+		console.log(chosenWords);
+		return createWordCluster(chosenWords, value.x, value.y, value.wordClusterParameters);
+	})
+	console.log(wordClusters);
+
 
 
 	
@@ -158,10 +185,11 @@ window.proceed = function(){
 		setInterval(applyWindForce, windInterval);
 	}
 	function applyWindForce(){
-		$.each(selectedTextObjects, function(index, value){
-			value.omega = value.omega + 2 - 4*Math.random();
-			northWind = 0.5 - Math.random();
-		});
+		//NO LONGER WORKS
+		// $.each(selectedTextObjects, function(index, value){
+		// 	value.omega = value.omega + 2 - 4*Math.random();
+		// 	northWind = 0.5 - Math.random();
+		// });
 
 	}
 	var northWind = 0.2;
@@ -219,14 +247,14 @@ window.proceed = function(){
 
 
 	canvas.setLoop(function(){
-		$.each(wordCluster, function(index, value){
-			//brownian(value);
-			flutter(value);
-			// forceField(value);
-			// recycle(value);
+		$.each(wordClusters, function(index, wordCluster){
+			$.each(wordCluster, function(index, word){
+				flutter(word);
+				//brownian(value);
+				// forceField(value);
+				// recycle(value);
+			});
 		});
-
 	});
 	canvas.timeline.start();
-	wind();
 }
