@@ -3,8 +3,8 @@ window.dataByFileCount = null;
 window.dataByWords = null;
 
 //PARAMETERS
-var smallestFontSize = 40;
-var largestFontSize = 70;
+var smallestFontSize = 28;
+var largestFontSize = 50;
 var lowestOpacity = 0.6;
 var highestOpacity = 1.0;
 var wordClusterWidthScale = 0.25;
@@ -12,34 +12,90 @@ var wordClusterHeightScale = 0.6;
 var wordClusterX = 150;
 var wordClusterY = 150;
 var initalAngularVelocityRange = 0.05;
+var wordSpacingYRatio = 0.5;
+// 
+var fadeTimeMin = 1000;
+var fadeInTimeMax = 3500;
+var maxWordLife = 12000;
+var minWordLife = 9000;
+
 var colorPalette = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
 
 var WordAnimGlobal = {};
 
+WordAnimGlobal.wordObjects = [];
+
+WordAnimGlobal.randomizeWord = function(word){
+
+  var textObject = word.children[0];
+  var wordLife = randomNumberBetween(minWordLife, maxWordLife);
+  var fadeTime = randomNumberBetween(fadeTimeMin, fadeInTimeMax);
+
+  // ensure fade out begins after fade in finishes
+  if (wordLife < 3 * fadeTime) wordLife = 3 * fadeTime;
+  // after fadeIn, how long do we wait before fading out again?
+  var pauseTime = wordLife  - (3 * fadeTime);
+  // word must live long enough to finish fadeOut
+  if (pauseTime < 100) fadeTime = wordLife * 0.333;
+
+  word.opacity = 0;
+  textObject.text = _.sample(WordAnimGlobal.mostToLeast);
+
+  // do the fade
+  word.fadeTo(
+    randomNumberBetween(lowestOpacity, highestOpacity),
+    fadeTime
+  );
+  textObject.timeout = setTimeout(function(){
+    word.fadeOut(fadeTime);
+  }, pauseTime + fadeTime);
+
+  // movement
+  var xPos = Math.random()*word.parent.width * 0.5;
+  var moveLeft = !!(Math.floor(Math.random() * 2));
+  word.x = moveLeft ? word.parent.width - xPos : xPos;
+
+  var xTarget = randomNumberBetween(word.parent.width * 0.1, word.parent.width * 0.3);
+  if (!moveLeft) xTarget = word.parent.width - xTarget;
+
+  word.animate({
+    x: xTarget
+  }, {
+    easing: 'linear',
+    duration: wordLife,
+    callback: function(){
+      WordAnimGlobal.randomizeWord(word);
+      console.log('do it again:', textObject.text);
+    }
+  });
+  return word;
+};
+
 WordAnimGlobal.onMouseEnter = function(wordObject){
-  WordAnimGlobal.playSound(wordObject.text);
+
+  var textObject = wordObject.children[0];
+  WordAnimGlobal.playSound(textObject.text);
 
   // animate size
-  if (typeof wordObject.originalFontSize !== 'number') 
-    this.originalFontSize = this.size;
-  this.animate({
-    size: this.originalFontSize + 10,
+  if (typeof textObject.originalFontSize !== 'number') 
+    textObject.originalFontSize = textObject.size;
+
+  textObject.animate({
+    size: textObject.originalFontSize + 100,
   }, {
-    duration: 500,
-    easing: "ease-in-out-quadratic",
+    duration: 700,
     callback: function(){
-      this.animate({
-        size: this.originalFontSize
+      textObject.animate({
+        size: textObject.originalFontSize
       }, {
         duration: 600,
-        easing: "ease-in-out-quadratic"
       })
     }
   });
 };
 
-WordAnimGlobal.playSound = function(text){
-  $.post('/sound', {data:dataByWords[text]}, function(data, textStatus, jqXHR){
+WordAnimGlobal.playSound = function(word){
+  $.post('/sound', {data:dataByWords[word]}, function(data, textStatus, jqXHR){
     if (textStatus !== 'success'){
       console.warn(textStatus, jqXHR);
     }
@@ -48,7 +104,9 @@ WordAnimGlobal.playSound = function(text){
 
 window.proceed = function(){
 
-  var words = Object.keys(dataByWords);
+  var words = WordAnimGlobal.words = Object.keys(dataByWords);
+  WordAnimGlobal.mostToLeast = _.flatten(_.values(dataByFileCount)).reverse();
+
   var canvas = oCanvas.create({ canvas: "#canvas", background: "#222" }); 
 
   var image = canvas.display.image({
@@ -68,14 +126,9 @@ window.proceed = function(){
 
     var fontGradient = linearGradientBetween(smallestFontSize, largestFontSize, words.length);
     var colors = randomSampleFromArray(colorPalette, words.length);
-    
-    var opacities = repeatStoreInArray(function(){return randomNumberBetween(lowestOpacity, highestOpacity)}, words.length);
-    var positionYGradient = linearGradientBetween(0, 1.0, words.length);
+    var positionYGradient = linearGradientBetween(0, wordSpacingYRatio, words.length);
     // array of arrays
-    var wordsAndParameters = _.zip(words, fontGradient, colors, opacities, positionYGradient);
-
-    console.log(colors);
-    console.log(opacities);
+    var wordsAndParameters = _.zip(words, fontGradient, colors, positionYGradient);
 
     var parentRectangle = canvas.display.rectangle({
       width: canvas.width * wordClusterWidthScale,
@@ -83,40 +136,54 @@ window.proceed = function(){
       x: x,
       y: y,
       origin: {x: "left", y: "top"},
-      fill: 'rgba(256, 0, 0, 0.5)'
+      // fill: 'rgba(0, 0, 0, .5)',
     }).add();
 
     var wordObjects = wordsAndParameters.map(function(paramaters, index){
+
+      var base = canvas.display.rectangle({
+        origin: {x: 'center', y: 'center'};
+      });
+
+      var fader = canvas.display.rectangle({
+        origin: {x: 'center', y: 'center'};
+      });
+
       var text = paramaters[0];
       var fontSize = paramaters[1];
       var color = paramaters[2];
-      var opacity = paramaters[3];
-      var positionY = paramaters[4];
+      var positionY = paramaters[3];
 
-      return canvas.display.text({
-        x: Math.random()*parentRectangle.width,
+      base.addChild(canvas.display.text({
+        x: 0,
         y: positionY*parentRectangle.height,
         origin: {x: "center", y:"center"},
-        text: text,
+        text: 'init',
         fill: color,
         shapeType: "rectangular",
         index: index,
         font: 'ChaparralPro-Bold',
         size: fontSize,
-        opacity: opacity,
         omega: randomNumberBetween(-initalAngularVelocityRange, initalAngularVelocityRange)
-      });
+      }));
+
+      return base;
     })
 
-    _.each(wordObjects, function(wordObject){
-      wordObject.bind('mouseenter touchenter', function(){
+    _.each(wordObjects, function(wordObject){ 
+      wordObject.children[0].bind('mouseenter touchenter', function(){
         WordAnimGlobal.onMouseEnter.call(wordObject, wordObject);
       });
     });
 
     _.each(wordObjects, function(value){parentRectangle.addChild(value);});
+
+    _.each(wordObjects, WordAnimGlobal.randomizeWord);
+
+    WordAnimGlobal.wordObjects = WordAnimGlobal.wordObjects.concat(wordObjects);
     return wordObjects;
   }
+
   var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY);
 
   //ANIMATION
@@ -144,7 +211,7 @@ window.proceed = function(){
 
   function flutter(text){
     var desired = 0;
-    var k1 = 0.0003;//acceleration of gravity
+    var k1 = 0.0000;//acceleration of gravity
     var b = 0;//damping coefficient
 
     var forceGravity = k1*(desired - text.rotation);
@@ -167,30 +234,35 @@ window.proceed = function(){
   }
 
   function recycle(text){
-    if(text.x > canvas.width + text.width){
+    var moved = false
+    if(text.x > text.parent.width + text.width){
       text.x = -text.width;
+      moved = true;
     }
     if(text.x < -text.width){
-      text.x = canvas.width + text.width
+      text.x = text.parent.width + text.width
+      moved = true;
     }
-    if(text.y > canvas.height + text.height){
+    if(text.y > text.parent.height + text.height){
       text.y = -text.height;
+      moved = true;
     }
     if(text.y < -text.height){
-      text.y = canvas.height + text.height;
+      text.y = text.parent.height + text.height;
+      moved = true;
     }
   }
 
 
   canvas.setLoop(function(){
-    _.each(wordCluster, function(value){
-      // brownian(value);
-      // flutter(value);
-      // forceField(value);
-      // recycle(value);
+    _.each(wordCluster, function(wordObject){
+      // brownian(wordObject);
+      // flutter(wordObject);
+      //forceField(wordObject);
+      // recycle(wordObject);
     });
 
   });
   canvas.timeline.start();
-  wind();
+  // wind();
 }

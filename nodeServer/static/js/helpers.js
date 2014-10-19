@@ -17,7 +17,6 @@ function randomNumberBetween(lower, upper){
 function linearGradientBetween(lower, upper, n){
   var slices = [];
   var delta = (upper-lower)/n;
-  console.log(delta);
   for(var i = 0; i < n; i++){
     slices.push(lower + i * delta);
   }
