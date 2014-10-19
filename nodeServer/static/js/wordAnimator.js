@@ -6,7 +6,7 @@ var screenHeight = $(window).height();
 var screenWidth = $(window).width();
 
 //PARAMETERS
-var smallestFontSize = 28;
+var smallestFontSize = 35;
 var largestFontSize = 80;
 var lowestOpacity = 0.6;
 var highestOpacity = 1.0;
@@ -16,7 +16,7 @@ var wordClusterX1 = (screenWidth * 0.25) - (wordClusterWidthScale * screenWidth 
 var wordClusterX2 = (screenWidth * 0.75) - (wordClusterWidthScale * screenWidth / 2);
 var wordClusterY = (screenHeight * 0.3);
 var initalAngularVelocityRange = 0.05;
-var wordSpacingYRatio = 0.8;
+var wordSpacingYRatio = 0.65;
 // 
 var fadeTimeMin = 1000;
 var fadeInTimeMax = 3500;
