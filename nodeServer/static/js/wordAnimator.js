@@ -5,6 +5,39 @@ window.dataByWords = null;
 var fadeOutTime = 5000;
 var fadeInTime = 3000;
 
+var images = [
+	"bridge_river_city.jpg",			
+	"street_old_city_centre.jpg",
+	"bridge_tower_mountains_river.jpg",	
+	"title.jpg",
+	"cow.jpg",					
+	"title_bar_restaurant.jpg",
+	"ducks_swans_water.jpg",			
+	"title_dockyard_construction.jpg",
+	"marketscene.jpg",				
+	"title_harbor_ship.jpg",
+	"nature_gras_mountains.jpg",		
+	"title_market.jpg",
+	"nature_mountains.jpg",			
+	"title_park.jpg",
+	"nature_rocks_mountains.jpg",		
+	"title_tod_trainstation.jpg",
+	"nature_small-lake2.jpg",			
+	"water_city_mountains.jpg",
+	"nature_small_lake.jpg",			
+	"water_city_nature.jpg",
+	"orchestra1.jpg",				
+	"water_lake_city2.jpg",
+	"orchestra2.jpg",				
+	"water_river_city_night.jpg",
+	"organ.jpg",				
+	"water_river_lake_city.jpg",
+	"panorama_bridge_city.jpg",		
+	"yodel.jpg"
+]
+
+
+
 var wordClusterParameters1 = {
 	smallestFontSize:60,
 	largestFontSize:100,
@@ -201,7 +234,32 @@ window.proceed = function(){
 		});
 	}
 
-	
+	function changeImage(){
+		var newImage = canvas.display.image({
+			x: 0,
+			y: 0,
+			origin: { x: "left", y: "top" },
+			image: "img/"+randomInArray(images),
+			zIndex: "back"
+		});
+
+		canvas.addChild(newImage);
+		newImage.zIndex = "back"; //must be after adding
+		console.log(newImage.zIndex);
+		image.fadeOut(fadeOutTime, "ease-in-out-cubic", function(){
+			image.remove();
+			image = newImage;
+		}); 
+
+	}
+
+	function slideShow(){
+		var interval = 20000;
+		setInterval(changeImage, interval);
+	}
+
+
+
 	//ANIMATION
 	function wind(){
 		var windInterval = 20000;
@@ -280,4 +338,5 @@ window.proceed = function(){
 		});
 	});
 	canvas.timeline.start();
+	slideShow();
 }
