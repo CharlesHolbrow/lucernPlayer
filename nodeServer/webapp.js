@@ -31,8 +31,9 @@ app.post('/sound', function(req, res){
     console.warn("Warning, no fullname on /sound post", req.body);
     return;
   }
-  if (req.body.words)
-    volume = (_(req.body.words).indexOf('orchestra') === -1) ? volume : 1.0;
+  if (req.body.words){
+    volume = (_(req.body.words).indexOf('orchestra') === -1) ? volume : 3;
+  }
 
 
   console.log('playing:', fullname, '@' + volume);

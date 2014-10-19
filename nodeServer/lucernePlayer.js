@@ -9,10 +9,9 @@ module.exports = SoundPlayer = function(port){
 SoundPlayer.prototype = {
 
 play: function(filename, volume, stereo){
-  volume = (typeof volume === 'number?') ? volume : 0.5;
+  volume = (typeof volume === 'number') ? volume : 0.5;
   var number = stereo ? 0 : Math.floor(Math.random() * 9); // 0 to 8, inclusive
-  var volume = Math.random() * 0.5 + 0.5;
-  volume = 0.7; // hack
+  console.log('v', volume);
   this.client.send('/' + filename, volume, number, number + 1);
 }
 

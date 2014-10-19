@@ -107,7 +107,6 @@ WordAnimGlobal.onMouseEnter = function(mover){
 WordAnimGlobal.playSound = function(word){
   var dataArray = dataByWords[word];
   var songDatum = _.sample(dataArray)
-  console.log(dataArray);
   $.post('/sound', songDatum, function(data, textStatus, jqXHR){
     if (textStatus !== 'success'){
       console.warn(textStatus, jqXHR);
