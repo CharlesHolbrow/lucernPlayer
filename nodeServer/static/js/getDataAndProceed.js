@@ -26,5 +26,5 @@ $.get('json/dataByWords.json', {}, function(data, textStatus, jqXHR){
 });
 
 var considerProceed = function(){
-  if (allData && dataByFileCount && dataByWords) proceed();
-}
+  if (window.allData && window.dataByFileCount && window.dataByWords) proceed();
+};
