@@ -23,16 +23,20 @@ app.post('/off', function(req, res){
 });
 
 app.post('/sound', function(req, res){
+  var volume = 0.4;
   var fullname = req.body.fullname;
   if (fullname) res.status(200).end();
   else {
     res.status(500).end()
-    console.warn("Warning, no fullname on /sound post");
+    console.warn("Warning, no fullname on /sound post", req.body);
     return;
   }
+  if (req.body.words)
+    volume = (_(req.body.words).indexOf('orchestra') === -1) ? volume : 1.0;
 
-  console.log('playing:', fullname);
-  player.play(fullname, false);
+
+  console.log('playing:', fullname, '@' + volume);
+  player.play(fullname, volume, false);
 
 });
 
