@@ -186,7 +186,8 @@ window.proceed = function(){
   }
 
   var wordCluster = createWordCluster(selectedWords, wordClusterX1, wordClusterY);
-  var wordCluster2 = createWordCluster(selectedWords, wordClusterX2, wordClusterY);
+  if (wordClusterX2)
+    var wordCluster2 = createWordCluster(selectedWords, wordClusterX2, wordClusterY);
 
   //ANIMATION
   function wind(){
