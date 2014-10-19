@@ -22,6 +22,6 @@ bgImageUrls.position = 0;
 
 setInterval(function(){
   var imageUrl = bgImageUrls[bgImageUrls.position];
-  if (imageUrl) bgTo(imageUrl);
+  if (imageUrl) bgTo(imageUrl, 5000);
   if (++bgImageUrls.position >= bgImageUrls.length) bgImageUrls.position = 0;
-}, 12000);
+}, 20000);
