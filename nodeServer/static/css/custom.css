@@ -1,5 +1,6 @@
 document, body {
   font-family: ChaparralPro-Bold;
+  overflow: hidden;
 }
 
 a.button{

@@ -114,6 +114,8 @@ WordAnimGlobal.playSound = function(word){
 window.proceed = function(){
 
   var words = WordAnimGlobal.words = Object.keys(dataByWords);
+  // don't use words with only one sample
+  delete dataByFileCount[1];
   WordAnimGlobal.mostToLeast = _.flatten(_.values(dataByFileCount)).reverse();
 
   var canvas = oCanvas.create({ canvas: "#canvas", background: "rgba(0, 0, 0, 0)" });
