@@ -2,10 +2,12 @@ window.allData = null;
 window.dataByFileCount = null;
 window.dataByWords = null;
 
+var fadeOutTime = 5000;
+var fadeInTime = 3000;
 
 var wordClusterParameters1 = {
-	smallestFontSize:40,
-	largestFontSize:80,
+	smallestFontSize:60,
+	largestFontSize:100,
 	lowestOpacity:0.6,
 	highestOpacity:1.0,
 	wordClusterWidthScale:0.25,
@@ -14,12 +16,12 @@ var wordClusterParameters1 = {
 	colorPalette:["#888888","#9999aa","#bbbbbb","#FFFFFF","#000000","#000000","#FFFFFF"]
 }
 var wordClusterParameters2 = {
-	smallestFontSize:40,
-	largestFontSize:80,
+	smallestFontSize:60,
+	largestFontSize:100,
 	lowestOpacity:0.6,
 	highestOpacity:1.0,
 	wordClusterWidthScale:0.1,
-	wordClusterHeightScale:0.3,
+	wordClusterHeightScale:0.2,
 	initalAngularVelocityRange:0.05,
 	colorPalette:["#222222","#111111","#111111","#000000","#000000","#FFFFFF","#FFFFFF"]
 }
@@ -32,8 +34,8 @@ var wordClusterLayout = [
 	},
 	{
 		wordClusterParameters: wordClusterParameters2,
-		x: 900,
-		y: 400,
+		x: 1300,
+		y: 700,
 		numberOfWords: 3
 	}
 ]
@@ -122,8 +124,6 @@ window.proceed = function(){
 			y: y,
 			origin: {x: "center", y: "center"}
 		}).add();
-
-
 		var wordObjects = wordsAndParameters.map(function(parameters, index){
 			var text = parameters[0];
 			var fontSize = parameters[1];
@@ -148,16 +148,33 @@ window.proceed = function(){
 		})
 
 		$.each(wordObjects, function(index, value){
-			value.bind("mouseenter touchenter", function(e){
-				//alert("TOUCHED" + value.text);
-				playSound(value.text);
-			});
+			// value.bind("mouseenter touchenter", function handler(e){
+			// 	playSound(value.text);
+
+			// 	//Once sound played unbind
+			// 	value.unbind("mouseenter touchenter", handler);
+
+			// });
+			bindSound(value);
 			parentRectangle.addChild(value);
 		});
 		return wordObjects;
-
-
 	}
+
+	function bindSound(word){
+		word.bind("mouseenter touchenter", function handler(e){
+				playSound(word.text);
+
+				//Once sound played unbind
+				word.unbind("mouseenter touchenter", handler);
+
+				//Then replace word
+				replaceWord(word);
+
+
+			});
+	}
+
 
 	var wordClusters = wordClusterLayout.map(function(value, index){
 		var chosenWords = randomSampleFromArray(allWords, value.numberOfWords);
@@ -168,8 +185,6 @@ window.proceed = function(){
 	console.log(wordClusters);
 
 
-
-	
 	function playSound(text){
 		$.post('/sound', {data:dataByWords[text]}, function(data, textStatus, jqXHR){
       		if (textStatus !== 'success'){
@@ -177,8 +192,16 @@ window.proceed = function(){
         	}
       	})
 	}
+	function replaceWord(word){
+		word.fadeOut(fadeOutTime, "ease-in-out-cubic", function(){
+			//once word faded out...
+			word.text = randomInArray(allWords);
+			bindSound(word);
+			word.fadeIn(fadeInTime, "ease-in-out-cubic");
+		});
+	}
 
-
+	
 	//ANIMATION
 	function wind(){
 		var windInterval = 20000;
