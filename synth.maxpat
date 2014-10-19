@@ -3,9 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 7
 		}
 ,
 		"rect" : [ 20.0, 52.0, 671.0, 641.0 ],
@@ -205,8 +204,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 16,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 113.102219, 112.0, 242.999985, 20.0 ],
-					"text" : "poly~ voice 16"
+					"patching_rect" : [ 113.102219, 112.0, 221.5, 20.0 ],
+					"text" : "poly~ voice 32"
 				}
 
 			}
@@ -461,8 +460,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "voice.maxpat",
-				"bootpath" : "/Users/nownownow/Projects/lucernPlayer",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/charlesholbrow/Projects/mit/lucerne/lucernPlayer",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
