@@ -46,7 +46,7 @@ WordAnimGlobal.randomizeWord = function(mover){
 
   fader.opacity = 0;
   texter.text = _.sample(WordAnimGlobal.mostToLeast);
-  if (Math.floor(Math.randon() * 10) === 0) texter.text = 'orchestra'; // on in ten times do orchestra
+  if (Math.floor(Math.random() * 10) === 0) texter.text = 'orchestra'; // on in ten times do orchestra
   texter.size = randomNumberBetween(smallestFontSize, largestFontSize);
   texter.originalFontSize = texter.size;
 
