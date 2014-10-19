@@ -4,7 +4,7 @@ window.dataByWords = null;
 
 //PARAMETERS
 var smallestFontSize = 28;
-var largestFontSize = 50;
+var largestFontSize = 80;
 var lowestOpacity = 0.6;
 var highestOpacity = 1.0;
 var wordClusterWidthScale = 0.25;
@@ -12,11 +12,11 @@ var wordClusterHeightScale = 0.6;
 var wordClusterX = 150;
 var wordClusterY = 150;
 var initalAngularVelocityRange = 0.05;
-var wordSpacingYRatio = 0.5;
+var wordSpacingYRatio = 0.8;
 // 
 var fadeTimeMin = 1000;
 var fadeInTimeMax = 3500;
-var maxWordLife = 12000;
+var maxWordLife = 20000;
 var minWordLife = 9000;
 
 var colorPalette = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
@@ -25,9 +25,11 @@ var WordAnimGlobal = {};
 
 WordAnimGlobal.wordObjects = [];
 
-WordAnimGlobal.randomizeWord = function(word){
+WordAnimGlobal.randomizeWord = function(mover){
 
-  var textObject = word.children[0];
+  var fader = mover.children[0];
+  var texter = fader.children[0];
+
   var wordLife = randomNumberBetween(minWordLife, maxWordLife);
   var fadeTime = randomNumberBetween(fadeTimeMin, fadeInTimeMax);
 
@@ -38,55 +40,59 @@ WordAnimGlobal.randomizeWord = function(word){
   // word must live long enough to finish fadeOut
   if (pauseTime < 100) fadeTime = wordLife * 0.333;
 
-  word.opacity = 0;
-  textObject.text = _.sample(WordAnimGlobal.mostToLeast);
+  fader.opacity = 0;
+  texter.text = _.sample(WordAnimGlobal.mostToLeast);
+  texter.size = randomNumberBetween(smallestFontSize, largestFontSize);
+  texter.originalFontSize = texter.size;
 
   // do the fade
-  word.fadeTo(
+  fader.fadeTo(
     randomNumberBetween(lowestOpacity, highestOpacity),
     fadeTime
   );
-  textObject.timeout = setTimeout(function(){
-    word.fadeOut(fadeTime);
+  fader.timeout = setTimeout(function(){
+    fader.fadeOut(fadeTime);
   }, pauseTime + fadeTime);
 
   // movement
-  var xPos = Math.random()*word.parent.width * 0.5;
+  var xPos = Math.random()*mover.parent.width * 0.5;
   var moveLeft = !!(Math.floor(Math.random() * 2));
-  word.x = moveLeft ? word.parent.width - xPos : xPos;
+  mover.x = moveLeft ? mover.parent.width - xPos : xPos;
 
-  var xTarget = randomNumberBetween(word.parent.width * 0.1, word.parent.width * 0.3);
-  if (!moveLeft) xTarget = word.parent.width - xTarget;
+  var xTarget = randomNumberBetween(mover.parent.width * 0.1, mover.parent.width * 0.3);
+  if (!moveLeft) xTarget = mover.parent.width - xTarget;
 
-  word.animate({
+  mover.animate({
     x: xTarget
   }, {
     easing: 'linear',
     duration: wordLife,
     callback: function(){
-      WordAnimGlobal.randomizeWord(word);
-      console.log('do it again:', textObject.text);
+      WordAnimGlobal.randomizeWord(mover);
+      console.log('do it again:', texter.text);
     }
   });
-  return word;
+  return mover;
 };
 
-WordAnimGlobal.onMouseEnter = function(wordObject){
+WordAnimGlobal.onMouseEnter = function(mover){
 
-  var textObject = wordObject.children[0];
-  WordAnimGlobal.playSound(textObject.text);
+  var fader = mover.children[0];
+  var texter = fader.children[0];
+
+  WordAnimGlobal.playSound(texter.text);
 
   // animate size
-  if (typeof textObject.originalFontSize !== 'number') 
-    textObject.originalFontSize = textObject.size;
+  if (typeof texter.originalFontSize !== 'number') 
+    texter.originalFontSize = texter.size;
 
-  textObject.animate({
-    size: textObject.originalFontSize + 100,
+  texter.animate({
+    size: texter.originalFontSize + 15,
   }, {
     duration: 700,
     callback: function(){
-      textObject.animate({
-        size: textObject.originalFontSize
+      texter.animate({
+        size: texter.originalFontSize
       }, {
         duration: 600,
       })
@@ -120,15 +126,12 @@ window.proceed = function(){
   var selectedWords = randomSampleFromArray(words, 10);
   console.log(selectedWords);
 
-  var colors = ["#888888", "#9999aa", "#bbbbbb", "#FFFFFF", "#000000","#000000","#FFFFFF"];
-
   function createWordCluster(words, x, y){
 
-    var fontGradient = linearGradientBetween(smallestFontSize, largestFontSize, words.length);
     var colors = randomSampleFromArray(colorPalette, words.length);
     var positionYGradient = linearGradientBetween(0, wordSpacingYRatio, words.length);
     // array of arrays
-    var wordsAndParameters = _.zip(words, fontGradient, colors, positionYGradient);
+    var wordsAndParameters = _.zip(words, colors, positionYGradient);
 
     var parentRectangle = canvas.display.rectangle({
       width: canvas.width * wordClusterWidthScale,
@@ -142,19 +145,20 @@ window.proceed = function(){
     var wordObjects = wordsAndParameters.map(function(paramaters, index){
 
       var base = canvas.display.rectangle({
-        origin: {x: 'center', y: 'center'};
+        origin: {x: 'center', y: 'center'}
       });
 
       var fader = canvas.display.rectangle({
-        origin: {x: 'center', y: 'center'};
+        origin: {x: 'center', y: 'center'}
       });
 
-      var text = paramaters[0];
-      var fontSize = paramaters[1];
-      var color = paramaters[2];
-      var positionY = paramaters[3];
+      base.addChild(fader);
 
-      base.addChild(canvas.display.text({
+      var text = paramaters[0];
+      var color = paramaters[1];
+      var positionY = paramaters[2];
+
+      fader.addChild(canvas.display.text({
         x: 0,
         y: positionY*parentRectangle.height,
         origin: {x: "center", y:"center"},
@@ -163,7 +167,7 @@ window.proceed = function(){
         shapeType: "rectangular",
         index: index,
         font: 'ChaparralPro-Bold',
-        size: fontSize,
+        size: 30,
         omega: randomNumberBetween(-initalAngularVelocityRange, initalAngularVelocityRange)
       }));
 
