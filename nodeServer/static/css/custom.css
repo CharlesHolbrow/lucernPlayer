@@ -30,3 +30,11 @@ div#background img {
     width:100%;
     position: absolute;
 }
+
+div#background img.currentBg{
+  z-index: -1
+}
+
+div#background img.nextBg{
+  z-index: -2
+}

@@ -2,15 +2,19 @@ window.allData = null;
 window.dataByFileCount = null;
 window.dataByWords = null;
 
+var screenHeight = $(window).height();
+var screenWidth = $(window).width();
+
 //PARAMETERS
 var smallestFontSize = 28;
 var largestFontSize = 80;
 var lowestOpacity = 0.6;
 var highestOpacity = 1.0;
-var wordClusterWidthScale = 0.25;
-var wordClusterHeightScale = 0.6;
-var wordClusterX = 150;
-var wordClusterY = 150;
+var wordClusterWidthScale = 0.25; // how wide relative to the canvas?
+var wordClusterHeightScale = 0.6; // how tall relative to the canvas?
+var wordClusterX1 = (screenWidth * 0.25) - (wordClusterWidthScale * screenWidth / 2);
+var wordClusterX2 = (screenWidth * 0.75) - (wordClusterWidthScale * screenWidth / 2);
+var wordClusterY = (screenHeight * 0.3);
 var initalAngularVelocityRange = 0.05;
 var wordSpacingYRatio = 0.8;
 // 
@@ -113,6 +117,8 @@ window.proceed = function(){
   WordAnimGlobal.mostToLeast = _.flatten(_.values(dataByFileCount)).reverse();
 
   var canvas = oCanvas.create({ canvas: "#canvas", background: "rgba(0, 0, 0, 0)" });
+  canvas.width = screenWidth;
+  canvas.height = screenHeight;
 
   var selectedWords = randomSampleFromArray(words, 10);
   console.log(selectedWords);
@@ -179,8 +185,8 @@ window.proceed = function(){
     return wordObjects;
   }
 
-  var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY);
-  var wordCluster2 = createWordCluster(selectedWords, wordClusterX + 650, wordClusterY);
+  var wordCluster = createWordCluster(selectedWords, wordClusterX1, wordClusterY);
+  var wordCluster2 = createWordCluster(selectedWords, wordClusterX2, wordClusterY);
 
   //ANIMATION
   function wind(){
