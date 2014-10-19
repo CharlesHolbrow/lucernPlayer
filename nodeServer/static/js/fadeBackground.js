@@ -21,6 +21,7 @@ var bgImageUrls = ["img/bridge_river_city.jpg", "img/bridge_tower_mountains_rive
 bgImageUrls.position = 0;
 
 setInterval(function(){
-  var imageUrl = bgImageUrls[(bgImageUrls.position)++];
-  if (imageUrl) bgTo(imageUrl)
+  var imageUrl = bgImageUrls[bgImageUrls.position];
+  if (imageUrl) bgTo(imageUrl);
+  if (++bgImageUrls.position >= bgImageUrls.length) bgImageUrls.position = 0;
 }, 12000);
