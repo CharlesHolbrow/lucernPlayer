@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 449.0, 44.0, 671.0, 641.0 ],
+		"rect" : [ 158.0, 64.0, 1189.0, 885.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,62 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 94.0, 278.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 229.0, 278.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 94.0, 312.0, 44.0, 18.0 ],
+					"text" : "10000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 229.0, 312.0, 37.0, 18.0 ],
+					"text" : "2700"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -156,7 +212,6 @@
 				"box" : 				{
 					"id" : "obj-131",
 					"maxclass" : "slider",
-					"min" : 300.0,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
@@ -164,7 +219,7 @@
 					"patching_rect" : [ 214.0, 365.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 214.0, 365.0, 20.0, 140.0 ],
-					"size" : 1701.0
+					"size" : 5001.0
 				}
 
 			}
@@ -203,15 +258,14 @@
 				"box" : 				{
 					"id" : "obj-122",
 					"maxclass" : "slider",
-					"min" : 8000.0,
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 88.0, 365.0, 20.0, 140.0 ],
+					"patching_rect" : [ 94.0, 359.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 88.0, 365.0, 20.0, 140.0 ],
-					"size" : 12001.0
+					"size" : 15000.0
 				}
 
 			}
@@ -508,6 +562,42 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 15 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -734,7 +824,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "voice.maxpat",
-				"bootpath" : "/Users/bb/lucernPlayer",
+				"bootpath" : "/Users/nownownow/Projects/lucernPlayer",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
