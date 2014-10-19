@@ -66,7 +66,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 348.0, 526.0, 56.0, 20.0 ],
+					"patching_rect" : [ 348.0, 526.0, 47.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 348.0, 526.0, 56.0, 20.0 ]
 				}
@@ -85,7 +85,7 @@
 					"patching_rect" : [ 326.0, 365.0, 20.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 326.0, 365.0, 20.0, 140.0 ],
-					"size" : 247.0
+					"size" : 30.0
 				}
 
 			}
