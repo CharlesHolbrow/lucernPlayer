@@ -69,7 +69,6 @@ WordAnimGlobal.randomizeWord = function(mover){
     duration: wordLife,
     callback: function(){
       WordAnimGlobal.randomizeWord(mover);
-      console.log('do it again:', texter.text);
     }
   });
   return mover;
@@ -89,13 +88,13 @@ WordAnimGlobal.onMouseEnter = function(mover){
   texter.animate({
     size: texter.originalFontSize + 15,
   }, {
-    duration: 700,
+    duration: 400,
     callback: function(){
       texter.animate({
         size: texter.originalFontSize
       }, {
-        duration: 600,
-      })
+        duration: 700,
+      });
     }
   });
 };
@@ -113,16 +112,8 @@ window.proceed = function(){
   var words = WordAnimGlobal.words = Object.keys(dataByWords);
   WordAnimGlobal.mostToLeast = _.flatten(_.values(dataByFileCount)).reverse();
 
-  var canvas = oCanvas.create({ canvas: "#canvas", background: "#222" }); 
+  var canvas = oCanvas.create({ canvas: "#canvas", background: "rgba(0, 0, 0, 0)" });
 
-  var image = canvas.display.image({
-    x: 0,
-    y: 0,
-    origin: { x: "left", y: "top" },
-    image: "img/title.jpg"
-  });
-
-  canvas.addChild(image);
   var selectedWords = randomSampleFromArray(words, 10);
   console.log(selectedWords);
 
@@ -162,7 +153,7 @@ window.proceed = function(){
         x: 0,
         y: positionY*parentRectangle.height,
         origin: {x: "center", y:"center"},
-        text: 'init',
+        text: '',
         fill: color,
         shapeType: "rectangular",
         index: index,
@@ -189,6 +180,7 @@ window.proceed = function(){
   }
 
   var wordCluster = createWordCluster(selectedWords, wordClusterX, wordClusterY);
+  var wordCluster2 = createWordCluster(selectedWords, wordClusterX + 650, wordClusterY);
 
   //ANIMATION
   function wind(){
