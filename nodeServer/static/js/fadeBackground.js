@@ -7,7 +7,7 @@ var bgTo = function(url, duration){
   $('<img class="nextBg">').one('load', function(){
     // the image is loaded, fade out the top image
     var newImage = this;
-    current.fadeTo(1000, 0, function(){
+    current.fadeTo(duration, 0, function(){
       // the current image has faded out
       current.remove();
       // just in case another one showed up
