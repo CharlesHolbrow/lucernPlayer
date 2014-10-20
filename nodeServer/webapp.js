@@ -32,7 +32,10 @@ app.post('/sound', function(req, res){
     return;
   }
   if (req.body.words){
-    volume = (_(req.body.words).indexOf('orchestra') === -1) ? volume : 3;
+    volume = (_(req.body.words).indexOf('yodeler') === -1) ? volume : 2;
+    volume = (_(req.body.words).indexOf('orchestra') === -1) ? volume : 2;
+    volume = (_(req.body.words).indexOf('alpenhorn') === -1) ? volume : 2;
+
   }
 
 
