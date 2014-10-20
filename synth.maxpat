@@ -3,12 +3,11 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x86"
+			"minor" : 0,
+			"revision" : 7
 		}
 ,
-		"rect" : [ 158.0, 64.0, 1189.0, 885.0 ],
+		"rect" : [ 4.0, 44.0, 620.0, 695.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -316,8 +315,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 453.0, 124.0, 72.0, 20.0 ],
-					"text" : "loadmess 0"
+					"patching_rect" : [ 453.0, 124.0, 79.0, 20.0 ],
+					"text" : "loadmess 20"
 				}
 
 			}
@@ -427,8 +426,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.102219, 57.0, 392.0, 18.0 ],
-					"text" : "note /Users/charlesholbrow/Projects/mit/lucerne/ChildStreet.wav 0.2 0 1"
+					"patching_rect" : [ 113.102219, 57.0, 462.0, 18.0 ],
+					"text" : "note /Users/charlesholbrow/Projects/mit/lucerne/lucernPlayer/ChildStreet.wav 0.2 0 1"
 				}
 
 			}
@@ -824,8 +823,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "voice.maxpat",
-				"bootpath" : "/Users/nownownow/Projects/lucernPlayer",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/charlesholbrow/Projects/mit/lucerne/lucernPlayer",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
