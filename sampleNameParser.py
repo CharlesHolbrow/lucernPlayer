@@ -7,7 +7,7 @@ import json
 
 class WavDatum():
 
-  restricted = set(['wav', '', 'the', 'in', 'zoom', 'shot', 'lucern', 'lucerne', 'session','august','day', 'and', 'to','reduc','woha','a','b','c','d','with','nice','on','tr','iver','vs','bagpipey','runner','region','studio','render','for','convo','breathing','arrival','piano'])
+  restricted = set(['wav', '', 'the', 'in', 'zoom', 'shot', 'lucern', 'lucerne', 'session','august','day', 'and', 'to','reduc','woha','a','b','c','d','with','nice','on','tr','iver','vs','bagpipey','runner','region','studio','render','for','convo','breathing','arrival','piano', 'removal', 'pianissimo', 'needs', 'demo', 'exaggerated', 'very', 'effect', 'ferry', 'bon','into','pant'])
 
   def __init__(self, root, filename):
     self.root = root
