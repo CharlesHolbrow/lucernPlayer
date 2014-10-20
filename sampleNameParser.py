@@ -7,7 +7,7 @@ import json
 
 class WavDatum():
 
-  restricted = set(['wav', '', 'the', 'in', 'zoom', 'shot', 'lucern', 'lucerne', 'session','august','day', 'and', 'to','reduc','woha','a','b','c','d','with','nice','on','tr','iver','vs','bagpipey'])
+  restricted = set(['wav', '', 'the', 'in', 'zoom', 'shot', 'lucern', 'lucerne', 'session','august','day', 'and', 'to','reduc','woha','a','b','c','d','with','nice','on','tr','iver','vs','bagpipey','runner','region','studio','render','for','convo','breathing','arrival','piano'])
 
   def __init__(self, root, filename):
     self.root = root
@@ -35,8 +35,8 @@ class WavDatumEncoder(json.JSONEncoder):
 
 
 #path = '/Volumes/Transcend/Renders_MondayAugust29,2014/'
-path1 = '/Volumes/Untitled 2/Lucerne/LucerneRenders_September29,2014/'
-path2 = '/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples'
+path1 = '/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat'
+# path2 = '/Volumes/Untitled 2/Lucerne/Orchestra Session/Orchestra/RenderedSamples'
 
 # function to get datum for each file in a given location
 
@@ -49,7 +49,7 @@ def wavDataCollect(path,array):
 #collect data from multiple paths
 wavData = []
 wavDataCollect(path1,wavData)
-wavDataCollect(path2,wavData)
+# wavDataCollect(path2,wavData)
 
 
 # dictionary of words with array containing each data object
