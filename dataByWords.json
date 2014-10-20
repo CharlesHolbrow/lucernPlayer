@@ -135,31 +135,6 @@
       "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav"
     }
   ], 
-  "removal": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/079_Conversation(NeedsNoiseRemoval)_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "conversation", 
-        "needs", 
-        "noise", 
-        "removal"
-      ], 
-      "filename": "079_Conversation(NeedsNoiseRemoval)_Lucern.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/082_BirdCall(NeedsNoiseRemoval_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "needs", 
-        "noise", 
-        "call", 
-        "bird", 
-        "removal"
-      ], 
-      "filename": "082_BirdCall(NeedsNoiseRemoval_Lucern.wav"
-    }
-  ], 
   "tail": [
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organ_fatChord_niceTail.wav", 
@@ -327,30 +302,6 @@
         "orchestra"
       ], 
       "filename": "064-LucerneOrchestraSession-August26-2014_pleasing.wav"
-    }
-  ], 
-  "very": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/06-City Bells and Street Sounds - Very Nice.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "very", 
-        "city", 
-        "sounds", 
-        "street", 
-        "bells"
-      ], 
-      "filename": "06-City Bells and Street Sounds - Very Nice.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/105_VerySpicyTomato_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "very", 
-        "tomato", 
-        "spicy"
-      ], 
-      "filename": "105_VerySpicyTomato_Lucern.wav"
     }
   ], 
   "rise": [
@@ -1119,6 +1070,16 @@
       "filename": "kkl_hornBlast_2(nice pan).wav"
     }, 
     {
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts.wav", 
+      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
+      "words": [
+        "kkl", 
+        "blasts", 
+        "horn"
+      ], 
+      "filename": "kkl_hornBlasts.wav"
+    }, 
+    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts_3.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -1127,17 +1088,6 @@
         "horn"
       ], 
       "filename": "kkl_hornBlasts_3.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts_rain.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "kkl", 
-        "blasts", 
-        "rain", 
-        "horn"
-      ], 
-      "filename": "kkl_hornBlasts_rain.wav"
     }, 
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/streetStudio_conversation3_horn.wav", 
@@ -1176,7 +1126,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/06-City Bells and Street Sounds - Very Nice.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "very", 
         "city", 
         "sounds", 
         "street", 
@@ -1737,24 +1686,6 @@
       "filename": "027-LucerneOrchestraSession-August26-2014_sharp.wav"
     }, 
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/028-LucerneOrchestraSession-August26-2014_pianissimo.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "pianissimo", 
-        "orchestra"
-      ], 
-      "filename": "028-LucerneOrchestraSession-August26-2014_pianissimo.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/029-LucerneOrchestraSession-August26-2014_pianissimo.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "pianissimo", 
-        "orchestra"
-      ], 
-      "filename": "029-LucerneOrchestraSession-August26-2014_pianissimo.wav"
-    }, 
-    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/030-LucerneOrchestraSession-August26-2014_soft_strings.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -1781,15 +1712,6 @@
         "orchestra"
       ], 
       "filename": "032-LucerneOrchestraSession-August26-2014_piano.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/033-LucerneOrchestraSession-August26-2014_pianissimo.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "pianissimo", 
-        "orchestra"
-      ], 
-      "filename": "033-LucerneOrchestraSession-August26-2014_pianissimo.wav"
     }, 
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/034-LucerneOrchestraSession-August26-2014_soft_exhale.wav", 
@@ -2387,15 +2309,6 @@
       "filename": "098-LucerneOrchestraSession-August26-2014_cycling.wav"
     }, 
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/099-LucerneOrchestraSession-August26-2014_whispers.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "whispers", 
-        "orchestra"
-      ], 
-      "filename": "099-LucerneOrchestraSession-August26-2014_whispers.wav"
-    }, 
-    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/100-LucerneOrchestraSession-August26-2014_timpani_rolls.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -2602,16 +2515,6 @@
   ], 
   "waiting": [
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/083_WaitingForTheSteamShip_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "waiting", 
-        "steam", 
-        "ship"
-      ], 
-      "filename": "083_WaitingForTheSteamShip_Lucern.wav"
-    }, 
-    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/38-Resonant Indoor Voices Waiting for the Cable Car.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -2652,11 +2555,9 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/082_BirdCall(NeedsNoiseRemoval_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "needs", 
         "noise", 
         "call", 
-        "bird", 
-        "removal"
+        "bird"
       ], 
       "filename": "082_BirdCall(NeedsNoiseRemoval_Lucern.wav"
     }, 
@@ -3448,18 +3349,6 @@
       "filename": "crew_startingOars.wav"
     }
   ], 
-  "others": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/47-Yodeler And Others Talking .wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "talking", 
-        "yodeler", 
-        "others"
-      ], 
-      "filename": "47-Yodeler And Others Talking .wav"
-    }
-  ], 
   "sing": [
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/009_LaughingAndSIng_Lucern.wav", 
@@ -3480,16 +3369,17 @@
       "filename": "010_LaughAndSing2_Lucern.wav"
     }
   ], 
-  "seagull": [
+  "closing": [
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridge_walk2_seagull_2.wav", 
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/099_DoorsClosingClicksAndBeeps_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "bridge", 
-        "seagull", 
-        "walk"
+        "beeps", 
+        "closing", 
+        "clicks", 
+        "doors"
       ], 
-      "filename": "bridge_walk2_seagull_2.wav"
+      "filename": "099_DoorsClosingClicksAndBeeps_Lucern.wav"
     }
   ], 
   "change": [
@@ -3581,30 +3471,6 @@
         "space"
       ], 
       "filename": "organ_detuneSpace.wav"
-    }
-  ], 
-  "bon": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/exploringRainy_bark_BonIver.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exploring", 
-        "rainy", 
-        "bark", 
-        "bon"
-      ], 
-      "filename": "exploringRainy_bark_BonIver.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/exploringRainy_cafe_BonIver.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exploring", 
-        "rainy", 
-        "cafe", 
-        "bon"
-      ], 
-      "filename": "exploringRainy_cafe_BonIver.wav"
     }
   ], 
   "weird": [
@@ -4054,11 +3920,9 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/082_BirdCall(NeedsNoiseRemoval_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "needs", 
         "noise", 
         "call", 
-        "bird", 
-        "removal"
+        "bird"
       ], 
       "filename": "082_BirdCall(NeedsNoiseRemoval_Lucern.wav"
     }, 
@@ -4208,35 +4072,6 @@
         "door"
       ], 
       "filename": "37-Door Lock Rattle.wav"
-    }
-  ], 
-  "pianissimo": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/028-LucerneOrchestraSession-August26-2014_pianissimo.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "pianissimo", 
-        "orchestra"
-      ], 
-      "filename": "028-LucerneOrchestraSession-August26-2014_pianissimo.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/029-LucerneOrchestraSession-August26-2014_pianissimo.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "pianissimo", 
-        "orchestra"
-      ], 
-      "filename": "029-LucerneOrchestraSession-August26-2014_pianissimo.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/033-LucerneOrchestraSession-August26-2014_pianissimo.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "pianissimo", 
-        "orchestra"
-      ], 
-      "filename": "033-LucerneOrchestraSession-August26-2014_pianissimo.wav"
     }
   ], 
   "chocolate": [
@@ -4455,8 +4290,7 @@
       "words": [
         "tunnel", 
         "pedestrian", 
-        "walking", 
-        "into"
+        "walking"
       ], 
       "filename": "25-Walking into a pedestrian tunnel.wav"
     }
@@ -4707,7 +4541,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/17-Ferry Ride.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "ferry", 
         "ride"
       ], 
       "filename": "17-Ferry Ride.wav"
@@ -4749,54 +4582,28 @@
       "filename": "057-LucerneOrchestraSession-August26-2014_growing_clamoring.wav"
     }
   ], 
-  "ferry": [
+  "exhale": [
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/14-Ferry Bell 1.wav", 
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/034-LucerneOrchestraSession-August26-2014_soft_exhale.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "ferry", 
-        "bell"
+        "soft", 
+        "orchestra", 
+        "exhale"
       ], 
-      "filename": "14-Ferry Bell 1.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/15-Ferry Bell 2.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "ferry", 
-        "bell"
-      ], 
-      "filename": "15-Ferry Bell 2.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/16-Ferry Arrival.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "ferry"
-      ], 
-      "filename": "16-Ferry Arrival.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/17-Ferry Ride.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "ferry", 
-        "ride"
-      ], 
-      "filename": "17-Ferry Ride.wav"
+      "filename": "034-LucerneOrchestraSession-August26-2014_soft_exhale.wav"
     }
   ], 
-  "closing": [
+  "seagull": [
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/099_DoorsClosingClicksAndBeeps_Lucern.wav", 
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridge_walk2_seagull_2.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "beeps", 
-        "closing", 
-        "clicks", 
-        "doors"
+        "bridge", 
+        "seagull", 
+        "walk"
       ], 
-      "filename": "099_DoorsClosingClicksAndBeeps_Lucern.wav"
+      "filename": "bridge_walk2_seagull_2.wav"
     }
   ], 
   "drops": [
@@ -4906,8 +4713,7 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "high", 
-        "doppler", 
-        "effect"
+        "doppler"
       ], 
       "filename": "043_HighDopplerEffect_Lucern.wav"
     }, 
@@ -5222,42 +5028,6 @@
       "filename": "kkl_flamencoVocal_3.wav"
     }
   ], 
-  "needs": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/016_ChildYelling(Needs Noise Reduc_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "needs", 
-        "noise", 
-        "yelling", 
-        "child"
-      ], 
-      "filename": "016_ChildYelling(Needs Noise Reduc_Lucern.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/079_Conversation(NeedsNoiseRemoval)_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "conversation", 
-        "needs", 
-        "noise", 
-        "removal"
-      ], 
-      "filename": "079_Conversation(NeedsNoiseRemoval)_Lucern.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/082_BirdCall(NeedsNoiseRemoval_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "needs", 
-        "noise", 
-        "call", 
-        "bird", 
-        "removal"
-      ], 
-      "filename": "082_BirdCall(NeedsNoiseRemoval_Lucern.wav"
-    }
-  ], 
   "burbling": [
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/crew_quickPulls_burbling.wav", 
@@ -5533,7 +5303,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/105_VerySpicyTomato_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "very", 
         "tomato", 
         "spicy"
       ], 
@@ -5751,30 +5520,6 @@
         "boat"
       ], 
       "filename": "day#5_boat_water&wind.wav"
-    }
-  ], 
-  "pant": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridge_walk2_pantLegs.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "bridge", 
-        "pant", 
-        "legs", 
-        "walk"
-      ], 
-      "filename": "bridge_walk2_pantLegs.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridgeWalk2_pantLegs.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "bridge", 
-        "pant", 
-        "legs", 
-        "walk"
-      ], 
-      "filename": "bridgeWalk2_pantLegs.wav"
     }
   ], 
   "over": [
@@ -6489,7 +6234,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "shop", 
-        "into", 
         "coffee"
       ], 
       "filename": "02-Into a coffee shop.wav"
@@ -7058,6 +6802,16 @@
       "filename": "kkl_hornBlast_2(nice pan).wav"
     }, 
     {
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts.wav", 
+      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
+      "words": [
+        "kkl", 
+        "blasts", 
+        "horn"
+      ], 
+      "filename": "kkl_hornBlasts.wav"
+    }, 
+    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts_3.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -7066,17 +6820,6 @@
         "horn"
       ], 
       "filename": "kkl_hornBlasts_3.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts_rain.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "kkl", 
-        "blasts", 
-        "rain", 
-        "horn"
-      ], 
-      "filename": "kkl_hornBlasts_rain.wav"
     }, 
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_interestingCombo.wav", 
@@ -7558,7 +7301,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/06-City Bells and Street Sounds - Very Nice.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "very", 
         "city", 
         "sounds", 
         "street", 
@@ -7830,8 +7572,7 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "doppler", 
-        "low", 
-        "effect"
+        "low"
       ], 
       "filename": "042_LowDopplerEffect_Lucern.wav"
     }, 
@@ -7840,8 +7581,7 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "high", 
-        "doppler", 
-        "effect"
+        "doppler"
       ], 
       "filename": "043_HighDopplerEffect_Lucern.wav"
     }
@@ -8636,9 +8376,7 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "conversation", 
-        "needs", 
-        "noise", 
-        "removal"
+        "noise"
       ], 
       "filename": "079_Conversation(NeedsNoiseRemoval)_Lucern.wav"
     }, 
@@ -8688,15 +8426,6 @@
         "conversation"
       ], 
       "filename": "24-KKL Conversation.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/40-Yodeler Conversation.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "conversation"
-      ], 
-      "filename": "40-Yodeler Conversation.wav"
     }, 
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/crew_hardPulls_conversation.wav", 
@@ -8785,7 +8514,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/112-Exaggerated Bridge Footsteps.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge", 
         "footsteps"
       ], 
@@ -9029,7 +8757,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/06-City Bells and Street Sounds - Very Nice.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "very", 
         "city", 
         "sounds", 
         "street", 
@@ -9340,7 +9067,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "bridge", 
-        "pant", 
         "legs", 
         "walk"
       ], 
@@ -9351,7 +9077,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "bridge", 
-        "pant", 
         "legs", 
         "walk"
       ], 
@@ -9911,8 +9636,7 @@
       "words": [
         "exploring", 
         "rainy", 
-        "bark", 
-        "bon"
+        "bark"
       ], 
       "filename": "exploringRainy_bark_BonIver.wav"
     }, 
@@ -9933,8 +9657,7 @@
       "words": [
         "exploring", 
         "rainy", 
-        "cafe", 
-        "bon"
+        "cafe"
       ], 
       "filename": "exploringRainy_cafe_BonIver.wav"
     }, 
@@ -10608,7 +10331,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/100-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "100-Exaggerated Bridge 1shot.wav"
@@ -10617,7 +10339,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/101-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "101-Exaggerated Bridge 1shot.wav"
@@ -10626,7 +10347,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/102-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "102-Exaggerated Bridge 1shot.wav"
@@ -10635,7 +10355,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/103-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "103-Exaggerated Bridge 1shot.wav"
@@ -10644,7 +10363,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/104-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "104-Exaggerated Bridge 1shot.wav"
@@ -10653,7 +10371,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/105-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "105-Exaggerated Bridge 1shot.wav"
@@ -10662,7 +10379,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/106-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "106-Exaggerated Bridge 1shot.wav"
@@ -10671,7 +10387,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/107-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "107-Exaggerated Bridge 1shot.wav"
@@ -10680,7 +10395,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/108-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "108-Exaggerated Bridge 1shot.wav"
@@ -10689,7 +10403,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/109-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "109-Exaggerated Bridge 1shot.wav"
@@ -10718,7 +10431,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/112-Exaggerated Bridge Footsteps.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge", 
         "footsteps"
       ], 
@@ -10780,7 +10492,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/89-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "89-Exaggerated Bridge 1shot.wav"
@@ -10789,7 +10500,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/90-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "90-Exaggerated Bridge 1shot.wav"
@@ -10798,7 +10508,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/91-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "91-Exaggerated Bridge 1shot.wav"
@@ -10807,7 +10516,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/92-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "92-Exaggerated Bridge 1shot.wav"
@@ -10816,7 +10524,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/93-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "93-Exaggerated Bridge 1shot.wav"
@@ -10825,7 +10532,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/94-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "94-Exaggerated Bridge 1shot.wav"
@@ -10834,7 +10540,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/95-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "95-Exaggerated Bridge 1shot.wav"
@@ -10843,7 +10548,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/96-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "96-Exaggerated Bridge 1shot.wav"
@@ -10852,7 +10556,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/97-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "97-Exaggerated Bridge 1shot.wav"
@@ -10861,7 +10564,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/98-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "98-Exaggerated Bridge 1shot.wav"
@@ -10870,7 +10572,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/99-Exaggerated Bridge 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "exaggerated", 
         "bridge"
       ], 
       "filename": "99-Exaggerated Bridge 1shot.wav"
@@ -10901,7 +10602,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "bridge", 
-        "pant", 
         "legs", 
         "walk"
       ], 
@@ -11091,7 +10791,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "bridge", 
-        "pant", 
         "legs", 
         "walk"
       ], 
@@ -11565,52 +11264,6 @@
       "filename": "32-Talking Voices Texture 2.wav"
     }, 
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/43-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "43-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/44-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "44-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/45-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "45-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/46-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "46-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/47-Yodeler And Others Talking .wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "talking", 
-        "yodeler", 
-        "others"
-      ], 
-      "filename": "47-Yodeler And Others Talking .wav"
-    }, 
-    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/57-KKL Concert Hall AmbientTalking Texture.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -11878,28 +11531,25 @@
       "filename": "organ_beatlesQuote.wav"
     }
   ], 
-  "mother": [
+  "english": [
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridge_walk2_mother&child.wav", 
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/076_EnglishConversation_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "bridge", 
-        "child", 
-        "mother", 
-        "walk"
+        "conversation", 
+        "english"
       ], 
-      "filename": "bridge_walk2_mother&child.wav"
+      "filename": "076_EnglishConversation_Lucern.wav"
     }, 
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridgeWalk2_mother&child.wav", 
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/10-KKL Reverberant English.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "bridge", 
-        "child", 
-        "mother", 
-        "walk"
+        "kkl", 
+        "english", 
+        "reverberant"
       ], 
-      "filename": "bridgeWalk2_mother&child.wav"
+      "filename": "10-KKL Reverberant English.wav"
     }
   ], 
   "clatter": [
@@ -12151,7 +11801,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "shop", 
-        "into", 
         "coffee"
       ], 
       "filename": "02-Into a coffee shop.wav"
@@ -12258,8 +11907,7 @@
       "words": [
         "tunnel", 
         "pedestrian", 
-        "walking", 
-        "into"
+        "walking"
       ], 
       "filename": "25-Walking into a pedestrian tunnel.wav"
     }, 
@@ -12664,18 +12312,6 @@
       "filename": "kkl_interestingCombo.wav"
     }
   ], 
-  "exhale": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/034-LucerneOrchestraSession-August26-2014_soft_exhale.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "soft", 
-        "orchestra", 
-        "exhale"
-      ], 
-      "filename": "034-LucerneOrchestraSession-August26-2014_soft_exhale.wav"
-    }
-  ], 
   "tock": [
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/068_Tock_Lucern.wav", 
@@ -12748,15 +12384,6 @@
         "orchestra"
       ], 
       "filename": "000-LucerneOrchestraSession-August26-2014_dominant.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organ_dominant7.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "dominant", 
-        "organ"
-      ], 
-      "filename": "organ_dominant7.wav"
     }
   ], 
   "patter": [
@@ -13185,15 +12812,6 @@
       "filename": "organ_dissonantPad.wav"
     }, 
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organ_dominant7.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "dominant", 
-        "organ"
-      ], 
-      "filename": "organ_dominant7.wav"
-    }, 
-    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organ_fatChord_niceTail.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -13606,7 +13224,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_1.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13616,7 +13233,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_10.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13626,7 +13242,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_10a.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13636,7 +13251,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_11.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13646,7 +13260,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_13.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13656,7 +13269,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_14.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13666,7 +13278,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_15.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13676,7 +13287,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_3.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13686,7 +13296,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_4.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13696,7 +13305,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_5.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13706,7 +13314,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_6.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13716,7 +13323,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_7.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13726,7 +13332,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_8.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -13994,16 +13599,6 @@
         "steam"
       ], 
       "filename": "052_Whistle&Steam_Lucern.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/083_WaitingForTheSteamShip_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "waiting", 
-        "steam", 
-        "ship"
-      ], 
-      "filename": "083_WaitingForTheSteamShip_Lucern.wav"
     }, 
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/088_SteamHorn_Lucern.wav", 
@@ -14331,8 +13926,7 @@
       "words": [
         "exploring", 
         "rainy", 
-        "bark", 
-        "bon"
+        "bark"
       ], 
       "filename": "exploringRainy_bark_BonIver.wav"
     }
@@ -14779,6 +14373,16 @@
   ], 
   "blasts": [
     {
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts.wav", 
+      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
+      "words": [
+        "kkl", 
+        "blasts", 
+        "horn"
+      ], 
+      "filename": "kkl_hornBlasts.wav"
+    }, 
+    {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts_3.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
@@ -14787,17 +14391,6 @@
         "horn"
       ], 
       "filename": "kkl_hornBlasts_3.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts_rain.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "kkl", 
-        "blasts", 
-        "rain", 
-        "horn"
-      ], 
-      "filename": "kkl_hornBlasts_rain.wav"
     }
   ], 
   "tour": [
@@ -14848,7 +14441,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_1.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14858,7 +14450,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_10.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14868,7 +14459,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_10a.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14878,7 +14468,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_11.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14888,7 +14477,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_13.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14898,7 +14486,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_14.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14908,7 +14495,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_15.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14918,7 +14504,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_3.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14928,7 +14513,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_4.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14938,7 +14522,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_5.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14948,7 +14531,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_6.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14958,7 +14540,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_7.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -14968,7 +14549,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_8.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "tour", 
         "organ"
       ], 
@@ -15224,7 +14804,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/14-Ferry Bell 1.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "ferry", 
         "bell"
       ], 
       "filename": "14-Ferry Bell 1.wav"
@@ -15233,7 +14812,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/15-Ferry Bell 2.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "ferry", 
         "bell"
       ], 
       "filename": "15-Ferry Bell 2.wav"
@@ -15424,7 +15002,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "bridge", 
-        "pant", 
         "legs", 
         "walk"
       ], 
@@ -15604,7 +15181,6 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "bridge", 
-        "pant", 
         "legs", 
         "walk"
       ], 
@@ -16357,7 +15933,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/016_ChildYelling(Needs Noise Reduc_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "needs", 
         "noise", 
         "yelling", 
         "child"
@@ -16447,8 +16022,7 @@
       "words": [
         "tunnel", 
         "pedestrian", 
-        "walking", 
-        "into"
+        "walking"
       ], 
       "filename": "25-Walking into a pedestrian tunnel.wav"
     }
@@ -16604,147 +16178,6 @@
       "filename": "014_BellsRinging_Lucern.wav"
     }
   ], 
-  "demo": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/004_SingingDemo_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "singing"
-      ], 
-      "filename": "004_SingingDemo_Lucern.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_1.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_1.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_10.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_10.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_10a.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_10a.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_11.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_11.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_13.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_13.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_14.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_14.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_15.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_15.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_3.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_3.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_4.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_4.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_5.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_5.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_6.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_6.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_7.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_7.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/organTour_demo_8.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "demo", 
-        "tour", 
-        "organ"
-      ], 
-      "filename": "organTour_demo_8.wav"
-    }
-  ], 
   "lush": [
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/109-LucerneOrchestraSession-August26-2014_lush.wav", 
@@ -16897,8 +16330,7 @@
       "words": [
         "exploring", 
         "rainy", 
-        "cafe", 
-        "bon"
+        "cafe"
       ], 
       "filename": "exploringRainy_cafe_BonIver.wav"
     }, 
@@ -17215,7 +16647,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/06-City Bells and Street Sounds - Very Nice.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "very", 
         "city", 
         "sounds", 
         "street", 
@@ -17497,28 +16928,6 @@
       "filename": "bridgeWalk2_seagulls_2.wav"
     }
   ], 
-  "effect": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/042_LowDopplerEffect_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "doppler", 
-        "low", 
-        "effect"
-      ], 
-      "filename": "042_LowDopplerEffect_Lucern.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/043_HighDopplerEffect_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "high", 
-        "doppler", 
-        "effect"
-      ], 
-      "filename": "043_HighDopplerEffect_Lucern.wav"
-    }
-  ], 
   "rain": [
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/017_RainDrops_Lucern.wav", 
@@ -17577,17 +16986,6 @@
         "rain"
       ], 
       "filename": "037_CarWithLoadRain_Lucern.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_hornBlasts_rain.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "kkl", 
-        "blasts", 
-        "rain", 
-        "horn"
-      ], 
-      "filename": "kkl_hornBlasts_rain.wav"
     }, 
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/kkl_rainAmbience.wav", 
@@ -17766,25 +17164,28 @@
       "filename": "exploringRainy_streetDrone.wav"
     }
   ], 
-  "english": [
+  "mother": [
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/076_EnglishConversation_Lucern.wav", 
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridge_walk2_mother&child.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "conversation", 
-        "english"
+        "bridge", 
+        "child", 
+        "mother", 
+        "walk"
       ], 
-      "filename": "076_EnglishConversation_Lucern.wav"
+      "filename": "bridge_walk2_mother&child.wav"
     }, 
     {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/10-KKL Reverberant English.wav", 
+      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/bridgeWalk2_mother&child.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "kkl", 
-        "english", 
-        "reverberant"
+        "bridge", 
+        "child", 
+        "mother", 
+        "walk"
       ], 
-      "filename": "10-KKL Reverberant English.wav"
+      "filename": "bridgeWalk2_mother&child.wav"
     }
   ], 
   "descending": [
@@ -18228,17 +17629,6 @@
         "orchestra"
       ], 
       "filename": "2B-LucerneOrchestraSession-August26-2014_dark.wav"
-    }
-  ], 
-  "whispers": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/099-LucerneOrchestraSession-August26-2014_whispers.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "whispers", 
-        "orchestra"
-      ], 
-      "filename": "099-LucerneOrchestraSession-August26-2014_whispers.wav"
     }
   ], 
   "traffic": [
@@ -18853,7 +18243,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/004_SingingDemo_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "demo", 
         "singing"
       ], 
       "filename": "004_SingingDemo_Lucern.wav"
@@ -18998,7 +18387,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/016_ChildYelling(Needs Noise Reduc_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "needs", 
         "noise", 
         "yelling", 
         "child"
@@ -19010,9 +18398,7 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "conversation", 
-        "needs", 
-        "noise", 
-        "removal"
+        "noise"
       ], 
       "filename": "079_Conversation(NeedsNoiseRemoval)_Lucern.wav"
     }, 
@@ -19020,11 +18406,9 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/082_BirdCall(NeedsNoiseRemoval_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "needs", 
         "noise", 
         "call", 
-        "bird", 
-        "removal"
+        "bird"
       ], 
       "filename": "082_BirdCall(NeedsNoiseRemoval_Lucern.wav"
     }, 
@@ -19150,213 +18534,11 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/016_ChildYelling(Needs Noise Reduc_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "needs", 
         "noise", 
         "yelling", 
         "child"
       ], 
       "filename": "016_ChildYelling(Needs Noise Reduc_Lucern.wav"
-    }
-  ], 
-  "exaggerated": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/100-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "100-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/101-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "101-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/102-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "102-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/103-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "103-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/104-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "104-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/105-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "105-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/106-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "106-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/107-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "107-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/108-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "108-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/109-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "109-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/112-Exaggerated Bridge Footsteps.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge", 
-        "footsteps"
-      ], 
-      "filename": "112-Exaggerated Bridge Footsteps.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/89-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "89-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/90-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "90-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/91-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "91-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/92-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "92-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/93-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "93-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/94-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "94-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/95-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "95-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/96-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "96-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/97-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "97-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/98-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "98-Exaggerated Bridge 1shot.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/99-Exaggerated Bridge 1shot.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "exaggerated", 
-        "bridge"
-      ], 
-      "filename": "99-Exaggerated Bridge 1shot.wav"
     }
   ], 
   "of": [
@@ -19544,29 +18726,6 @@
         "orchestra"
       ], 
       "filename": "048-LucerneOrchestraSession-August26-2014_converging.wav"
-    }
-  ], 
-  "into": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/02-Into a coffee shop.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "shop", 
-        "into", 
-        "coffee"
-      ], 
-      "filename": "02-Into a coffee shop.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/25-Walking into a pedestrian tunnel.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "tunnel", 
-        "pedestrian", 
-        "walking", 
-        "into"
-      ], 
-      "filename": "25-Walking into a pedestrian tunnel.wav"
     }
   ], 
   "rolling": [
@@ -19828,8 +18987,7 @@
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
         "doppler", 
-        "low", 
-        "effect"
+        "low"
       ], 
       "filename": "042_LowDopplerEffect_Lucern.wav"
     }, 
@@ -19873,61 +19031,6 @@
     }
   ], 
   "yodeler": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/40-Yodeler Conversation.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "conversation"
-      ], 
-      "filename": "40-Yodeler Conversation.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/43-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "43-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/44-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "44-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/45-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "45-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/46-Yodeler Talking.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "yodeler", 
-        "talking"
-      ], 
-      "filename": "46-Yodeler Talking.wav"
-    }, 
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/47-Yodeler And Others Talking .wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "talking", 
-        "yodeler", 
-        "others"
-      ], 
-      "filename": "47-Yodeler And Others Talking .wav"
-    }, 
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/67-Yodeler 1shot.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
@@ -20193,7 +19296,6 @@
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/105_VerySpicyTomato_Lucern.wav", 
       "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
       "words": [
-        "very", 
         "tomato", 
         "spicy"
       ], 
@@ -20426,18 +19528,6 @@
       "filename": "106_AmbientTalkingAtShop_Lucern.wav"
     }
   ], 
-  "ship": [
-    {
-      "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/083_WaitingForTheSteamShip_Lucern.wav", 
-      "root": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat", 
-      "words": [
-        "waiting", 
-        "steam", 
-        "ship"
-      ], 
-      "filename": "083_WaitingForTheSteamShip_Lucern.wav"
-    }
-  ], 
   "dragging": [
     {
       "fullname": "/Users/nownownow/Projects/lucernPlayer/LucerneRenders_Flat/075_DraggingAndVoice_Lucern.wav", 
@@ -20476,8 +19566,7 @@
       "words": [
         "exploring", 
         "rainy", 
-        "bark", 
-        "bon"
+        "bark"
       ], 
       "filename": "exploringRainy_bark_BonIver.wav"
     }, 
@@ -20498,8 +19587,7 @@
       "words": [
         "exploring", 
         "rainy", 
-        "cafe", 
-        "bon"
+        "cafe"
       ], 
       "filename": "exploringRainy_cafe_BonIver.wav"
     }, 
