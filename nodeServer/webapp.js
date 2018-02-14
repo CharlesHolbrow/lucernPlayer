@@ -34,12 +34,11 @@ app.post('/sound', function(req, res){
   if (req.body.words){
     // Back when I first did this demo at member's week in 2014 some samples
     // were much louder than others. I tried to compensate for this with the
-    // lines of code below. In the next version, I more carefully curated the
-    // samples, so I'm commenting out the lines below.
+    // lines of code below.
 
-    // volume = (_(req.body.words).indexOf('yodeler') === -1) ? volume : 2;
-    // volume = (_(req.body.words).indexOf('orchestra') === -1) ? volume : 2;
-    // volume = (_(req.body.words).indexOf('alpenhorn') === -1) ? volume : 2;
+    volume = (_(req.body.words).indexOf('yodeler') === -1) ? volume : 1.5;
+    volume = (_(req.body.words).indexOf('orchestra') === -1) ? volume : 1;
+    volume = (_(req.body.words).indexOf('alpenhorn') === -1) ? volume : 2;
   }
 
   console.log('playing:', fullname, '@' + volume);

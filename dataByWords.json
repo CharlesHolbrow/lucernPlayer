@@ -13,7 +13,7 @@
   ], 
   "clamoring": [
     {
-      "index": 792, 
+      "index": 788, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/057-LucerneOrchestraSession-August26-2014_growing_clamoring.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -39,7 +39,7 @@
   ], 
   "pulsing": [
     {
-      "index": 795, 
+      "index": 791, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/060-LucerneOrchestraSession-August26-2014_low_pulsing.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -76,7 +76,7 @@
   ], 
   "hanging": [
     {
-      "index": 789, 
+      "index": 785, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/054-LucerneOrchestraSession-August26-2014_swell_hanging.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -134,7 +134,7 @@
   ], 
   "warning": [
     {
-      "index": 800, 
+      "index": 796, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/065-LucerneOrchestraSession-August26-2014_warning.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -146,7 +146,20 @@
   ], 
   "sparkling": [
     {
-      "index": 832, 
+      "index": 828, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "build", 
+        "orchestra", 
+        "arpeggio", 
+        "sparkling", 
+        "harp"
+      ], 
+      "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav"
+    }, 
+    {
+      "index": 829, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -233,7 +246,7 @@
       "filename": "023-LucerneOrchestraSession-August26-2014_swoop.wav"
     }, 
     {
-      "index": 818, 
+      "index": 814, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/083-LucerneOrchestraSession-August26-2014_swoop.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -334,7 +347,7 @@
   ], 
   "pleasing": [
     {
-      "index": 799, 
+      "index": 795, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/064-LucerneOrchestraSession-August26-2014_pleasing.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -398,7 +411,7 @@
       "filename": "exploring_waterClose_rise&fall_3.wav"
     }, 
     {
-      "index": 808, 
+      "index": 804, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/073-LucerneOrchestraSession-August26-2014_rise.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -424,7 +437,7 @@
   ], 
   "wave": [
     {
-      "index": 785, 
+      "index": 781, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/050-LucerneOrchestraSession-August26-2014_wave.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -744,7 +757,7 @@
   ], 
   "swirling": [
     {
-      "index": 843, 
+      "index": 847, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/108-LucerneOrchestraSession-August26-2014_swirling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -1101,7 +1114,7 @@
   ], 
   "jump": [
     {
-      "index": 817, 
+      "index": 813, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/082-LucerneOrchestraSession-August26-2014_jump.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -1875,14 +1888,13 @@
     }, 
     {
       "index": 770, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/034-LucerneOrchestraSession-August26-2014_soft_exhale.wav", 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/034-LucerneOrchestraSession-August26-2014_soft.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
         "soft", 
-        "orchestra", 
-        "exhale"
+        "orchestra"
       ], 
-      "filename": "034-LucerneOrchestraSession-August26-2014_soft_exhale.wav"
+      "filename": "034-LucerneOrchestraSession-August26-2014_soft.wav"
     }, 
     {
       "index": 771, 
@@ -1946,46 +1958,6 @@
     }, 
     {
       "index": 777, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/042-LucerneOrchestraSession-August26-2014_clamor.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "clamor", 
-        "orchestra"
-      ], 
-      "filename": "042-LucerneOrchestraSession-August26-2014_clamor.wav"
-    }, 
-    {
-      "index": 778, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/043-LucerneOrchestraSession-August26-2014_quake.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "orchestra", 
-        "quake"
-      ], 
-      "filename": "043-LucerneOrchestraSession-August26-2014_quake.wav"
-    }, 
-    {
-      "index": 779, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/044-LucerneOrchestraSession-August26-2014_thick.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "thick", 
-        "orchestra"
-      ], 
-      "filename": "044-LucerneOrchestraSession-August26-2014_thick.wav"
-    }, 
-    {
-      "index": 780, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/045-LucerneOrchestraSession-August26-2014_halt.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "orchestra", 
-        "halt"
-      ], 
-      "filename": "045-LucerneOrchestraSession-August26-2014_halt.wav"
-    }, 
-    {
-      "index": 781, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/046-LucerneOrchestraSession-August26-2014_airy.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -1995,7 +1967,7 @@
       "filename": "046-LucerneOrchestraSession-August26-2014_airy.wav"
     }, 
     {
-      "index": 782, 
+      "index": 778, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/047-LucerneOrchestraSession-August26-2014_mellow_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2006,7 +1978,7 @@
       "filename": "047-LucerneOrchestraSession-August26-2014_mellow_swell.wav"
     }, 
     {
-      "index": 783, 
+      "index": 779, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/048-LucerneOrchestraSession-August26-2014_converging.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2016,7 +1988,7 @@
       "filename": "048-LucerneOrchestraSession-August26-2014_converging.wav"
     }, 
     {
-      "index": 784, 
+      "index": 780, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/049-LucerneOrchestraSession-August26-2014_lifting.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2026,7 +1998,7 @@
       "filename": "049-LucerneOrchestraSession-August26-2014_lifting.wav"
     }, 
     {
-      "index": 785, 
+      "index": 781, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/050-LucerneOrchestraSession-August26-2014_wave.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2036,7 +2008,7 @@
       "filename": "050-LucerneOrchestraSession-August26-2014_wave.wav"
     }, 
     {
-      "index": 786, 
+      "index": 782, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/051-LucerneOrchestraSession-August26-2014_shimmer_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2047,7 +2019,7 @@
       "filename": "051-LucerneOrchestraSession-August26-2014_shimmer_swell.wav"
     }, 
     {
-      "index": 787, 
+      "index": 783, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/052-LucerneOrchestraSession-August26-2014_dissonant.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2057,7 +2029,7 @@
       "filename": "052-LucerneOrchestraSession-August26-2014_dissonant.wav"
     }, 
     {
-      "index": 788, 
+      "index": 784, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/053-LucerneOrchestraSession-August26-2014_dissonant.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2067,7 +2039,7 @@
       "filename": "053-LucerneOrchestraSession-August26-2014_dissonant.wav"
     }, 
     {
-      "index": 789, 
+      "index": 785, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/054-LucerneOrchestraSession-August26-2014_swell_hanging.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2078,7 +2050,7 @@
       "filename": "054-LucerneOrchestraSession-August26-2014_swell_hanging.wav"
     }, 
     {
-      "index": 790, 
+      "index": 786, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/055-LucerneOrchestraSession-August26-2014_aggressive_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2089,7 +2061,7 @@
       "filename": "055-LucerneOrchestraSession-August26-2014_aggressive_swell.wav"
     }, 
     {
-      "index": 791, 
+      "index": 787, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/056-LucerneOrchestraSession-August26-2014_turning.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2099,7 +2071,7 @@
       "filename": "056-LucerneOrchestraSession-August26-2014_turning.wav"
     }, 
     {
-      "index": 792, 
+      "index": 788, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/057-LucerneOrchestraSession-August26-2014_growing_clamoring.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2110,7 +2082,7 @@
       "filename": "057-LucerneOrchestraSession-August26-2014_growing_clamoring.wav"
     }, 
     {
-      "index": 793, 
+      "index": 789, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/058-LucerneOrchestraSession-August26-2014_ambient.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2120,7 +2092,7 @@
       "filename": "058-LucerneOrchestraSession-August26-2014_ambient.wav"
     }, 
     {
-      "index": 794, 
+      "index": 790, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/059-LucerneOrchestraSession-August26-2014_circling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2130,7 +2102,7 @@
       "filename": "059-LucerneOrchestraSession-August26-2014_circling.wav"
     }, 
     {
-      "index": 795, 
+      "index": 791, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/060-LucerneOrchestraSession-August26-2014_low_pulsing.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2141,7 +2113,7 @@
       "filename": "060-LucerneOrchestraSession-August26-2014_low_pulsing.wav"
     }, 
     {
-      "index": 796, 
+      "index": 792, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/061-LucerneOrchestraSession-August26-2014_bright.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2151,7 +2123,7 @@
       "filename": "061-LucerneOrchestraSession-August26-2014_bright.wav"
     }, 
     {
-      "index": 797, 
+      "index": 793, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/062-LucerneOrchestraSession-August26-2014_sloping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2161,7 +2133,7 @@
       "filename": "062-LucerneOrchestraSession-August26-2014_sloping.wav"
     }, 
     {
-      "index": 798, 
+      "index": 794, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/063-LucerneOrchestraSession-August26-2014_strike.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2171,7 +2143,7 @@
       "filename": "063-LucerneOrchestraSession-August26-2014_strike.wav"
     }, 
     {
-      "index": 799, 
+      "index": 795, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/064-LucerneOrchestraSession-August26-2014_pleasing.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2181,7 +2153,7 @@
       "filename": "064-LucerneOrchestraSession-August26-2014_pleasing.wav"
     }, 
     {
-      "index": 800, 
+      "index": 796, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/065-LucerneOrchestraSession-August26-2014_warning.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2191,7 +2163,7 @@
       "filename": "065-LucerneOrchestraSession-August26-2014_warning.wav"
     }, 
     {
-      "index": 801, 
+      "index": 797, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/066-LucerneOrchestraSession-August26-2014_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2201,7 +2173,7 @@
       "filename": "066-LucerneOrchestraSession-August26-2014_glissando.wav"
     }, 
     {
-      "index": 802, 
+      "index": 798, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/067-LucerneOrchestraSession-August26-2014_unresolved.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2211,7 +2183,7 @@
       "filename": "067-LucerneOrchestraSession-August26-2014_unresolved.wav"
     }, 
     {
-      "index": 803, 
+      "index": 799, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/068-LucerneOrchestraSession-August26-2014_fearful.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2221,7 +2193,7 @@
       "filename": "068-LucerneOrchestraSession-August26-2014_fearful.wav"
     }, 
     {
-      "index": 804, 
+      "index": 800, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/069-LucerneOrchestraSession-August26-2014_squeak.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2231,7 +2203,7 @@
       "filename": "069-LucerneOrchestraSession-August26-2014_squeak.wav"
     }, 
     {
-      "index": 805, 
+      "index": 801, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/070-LucerneOrchestraSession-August26-2014_tremble.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2241,7 +2213,7 @@
       "filename": "070-LucerneOrchestraSession-August26-2014_tremble.wav"
     }, 
     {
-      "index": 806, 
+      "index": 802, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/071-LucerneOrchestraSession-August26-2014_warble.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2251,7 +2223,7 @@
       "filename": "071-LucerneOrchestraSession-August26-2014_warble.wav"
     }, 
     {
-      "index": 807, 
+      "index": 803, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/072-LucerneOrchestraSession-August26-2014_soft.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2261,7 +2233,7 @@
       "filename": "072-LucerneOrchestraSession-August26-2014_soft.wav"
     }, 
     {
-      "index": 808, 
+      "index": 804, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/073-LucerneOrchestraSession-August26-2014_rise.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2271,7 +2243,7 @@
       "filename": "073-LucerneOrchestraSession-August26-2014_rise.wav"
     }, 
     {
-      "index": 809, 
+      "index": 805, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/074-LucerneOrchestraSession-August26-2014_reverberant.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2281,7 +2253,7 @@
       "filename": "074-LucerneOrchestraSession-August26-2014_reverberant.wav"
     }, 
     {
-      "index": 810, 
+      "index": 806, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/075-LucerneOrchestraSession-August26-2014_brash.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2291,7 +2263,7 @@
       "filename": "075-LucerneOrchestraSession-August26-2014_brash.wav"
     }, 
     {
-      "index": 811, 
+      "index": 807, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/076-LucerneOrchestraSession-August26-2014_inquisitive.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2301,7 +2273,7 @@
       "filename": "076-LucerneOrchestraSession-August26-2014_inquisitive.wav"
     }, 
     {
-      "index": 812, 
+      "index": 808, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/077-LucerneOrchestraSession-August26-2014_intersection.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2311,7 +2283,7 @@
       "filename": "077-LucerneOrchestraSession-August26-2014_intersection.wav"
     }, 
     {
-      "index": 813, 
+      "index": 809, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/078-LucerneOrchestraSession-August26-2014_swooping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2321,7 +2293,7 @@
       "filename": "078-LucerneOrchestraSession-August26-2014_swooping.wav"
     }, 
     {
-      "index": 814, 
+      "index": 810, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/079-LucerneOrchestraSession-August26-2014_swooping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2331,7 +2303,7 @@
       "filename": "079-LucerneOrchestraSession-August26-2014_swooping.wav"
     }, 
     {
-      "index": 815, 
+      "index": 811, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/080-LucerneOrchestraSession-August26-2014_slide.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2341,7 +2313,7 @@
       "filename": "080-LucerneOrchestraSession-August26-2014_slide.wav"
     }, 
     {
-      "index": 816, 
+      "index": 812, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/081-LucerneOrchestraSession-August26-2014_curve.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2351,7 +2323,7 @@
       "filename": "081-LucerneOrchestraSession-August26-2014_curve.wav"
     }, 
     {
-      "index": 817, 
+      "index": 813, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/082-LucerneOrchestraSession-August26-2014_jump.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2361,7 +2333,7 @@
       "filename": "082-LucerneOrchestraSession-August26-2014_jump.wav"
     }, 
     {
-      "index": 818, 
+      "index": 814, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/083-LucerneOrchestraSession-August26-2014_swoop.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2371,7 +2343,7 @@
       "filename": "083-LucerneOrchestraSession-August26-2014_swoop.wav"
     }, 
     {
-      "index": 819, 
+      "index": 815, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/084-LucerneOrchestraSession-August26-2014_clatter.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2381,7 +2353,7 @@
       "filename": "084-LucerneOrchestraSession-August26-2014_clatter.wav"
     }, 
     {
-      "index": 820, 
+      "index": 816, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/085-LucerneOrchestraSession-August26-2014_low.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2391,7 +2363,7 @@
       "filename": "085-LucerneOrchestraSession-August26-2014_low.wav"
     }, 
     {
-      "index": 821, 
+      "index": 817, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/086-LucerneOrchestraSession-August26-2014_deep.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2401,7 +2373,7 @@
       "filename": "086-LucerneOrchestraSession-August26-2014_deep.wav"
     }, 
     {
-      "index": 822, 
+      "index": 818, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/087-LucerneOrchestraSession-August26-2014_upward.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2411,7 +2383,7 @@
       "filename": "087-LucerneOrchestraSession-August26-2014_upward.wav"
     }, 
     {
-      "index": 823, 
+      "index": 819, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/088-LucerneOrchestraSession-August26-2014_descending.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2421,7 +2393,7 @@
       "filename": "088-LucerneOrchestraSession-August26-2014_descending.wav"
     }, 
     {
-      "index": 824, 
+      "index": 820, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/089-LucerneOrchestraSession-August26-2014_ascending.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2431,7 +2403,7 @@
       "filename": "089-LucerneOrchestraSession-August26-2014_ascending.wav"
     }, 
     {
-      "index": 825, 
+      "index": 821, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/090-LucerneOrchestraSession-August26-2014_whistle.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2441,7 +2413,7 @@
       "filename": "090-LucerneOrchestraSession-August26-2014_whistle.wav"
     }, 
     {
-      "index": 826, 
+      "index": 822, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/091-LucerneOrchestraSession-August26-2014_crowd.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2451,7 +2423,7 @@
       "filename": "091-LucerneOrchestraSession-August26-2014_crowd.wav"
     }, 
     {
-      "index": 827, 
+      "index": 823, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/092-LucerneOrchestraSession-August26-2014_exclamation.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2461,7 +2433,7 @@
       "filename": "092-LucerneOrchestraSession-August26-2014_exclamation.wav"
     }, 
     {
-      "index": 828, 
+      "index": 824, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/093-LucerneOrchestraSession-August26-2014_beating.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2471,7 +2443,7 @@
       "filename": "093-LucerneOrchestraSession-August26-2014_beating.wav"
     }, 
     {
-      "index": 829, 
+      "index": 825, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/094-LucerneOrchestraSession-August26-2014_pulsating.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2481,7 +2453,7 @@
       "filename": "094-LucerneOrchestraSession-August26-2014_pulsating.wav"
     }, 
     {
-      "index": 830, 
+      "index": 826, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/095-LucerneOrchestraSession-August26-2014_stabs.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2491,7 +2463,7 @@
       "filename": "095-LucerneOrchestraSession-August26-2014_stabs.wav"
     }, 
     {
-      "index": 831, 
+      "index": 827, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/096-LucerneOrchestraSession-August26-2014_cloud.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2501,7 +2473,20 @@
       "filename": "096-LucerneOrchestraSession-August26-2014_cloud.wav"
     }, 
     {
-      "index": 832, 
+      "index": 828, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "build", 
+        "orchestra", 
+        "arpeggio", 
+        "sparkling", 
+        "harp"
+      ], 
+      "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav"
+    }, 
+    {
+      "index": 829, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2514,7 +2499,7 @@
       "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav"
     }, 
     {
-      "index": 833, 
+      "index": 830, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/098-LucerneOrchestraSession-August26-2014_cycling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2524,7 +2509,7 @@
       "filename": "098-LucerneOrchestraSession-August26-2014_cycling.wav"
     }, 
     {
-      "index": 834, 
+      "index": 831, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/099-LucerneOrchestraSession-August26-2014_whispers.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2534,7 +2519,7 @@
       "filename": "099-LucerneOrchestraSession-August26-2014_whispers.wav"
     }, 
     {
-      "index": 835, 
+      "index": 832, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/100-LucerneOrchestraSession-August26-2014_timpani_rolls.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2545,17 +2530,7 @@
       "filename": "100-LucerneOrchestraSession-August26-2014_timpani_rolls.wav"
     }, 
     {
-      "index": 836, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneOrchestraSession-August26-2014_jitter.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "jitter", 
-        "orchestra"
-      ], 
-      "filename": "101-LucerneOrchestraSession-August26-2014_jitter.wav"
-    }, 
-    {
-      "index": 837, 
+      "index": 841, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/102-LucerneOrchestraSession-August26-2014_rippling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2565,7 +2540,7 @@
       "filename": "102-LucerneOrchestraSession-August26-2014_rippling.wav"
     }, 
     {
-      "index": 838, 
+      "index": 842, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/103-LucerneOrchestraSession-August26-2014_waves.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2575,7 +2550,7 @@
       "filename": "103-LucerneOrchestraSession-August26-2014_waves.wav"
     }, 
     {
-      "index": 839, 
+      "index": 843, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/104-LucerneOrchestraSession-August26-2014_trickling_harp.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2586,7 +2561,7 @@
       "filename": "104-LucerneOrchestraSession-August26-2014_trickling_harp.wav"
     }, 
     {
-      "index": 840, 
+      "index": 844, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/105-LucerneOrchestraSession-August26-2014_simmering.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2596,7 +2571,7 @@
       "filename": "105-LucerneOrchestraSession-August26-2014_simmering.wav"
     }, 
     {
-      "index": 841, 
+      "index": 845, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/106-LucerneOrchestraSession-August26-2014_sliding.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2606,7 +2581,7 @@
       "filename": "106-LucerneOrchestraSession-August26-2014_sliding.wav"
     }, 
     {
-      "index": 842, 
+      "index": 846, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/107-LucerneOrchestraSession-August26-2014_drifting.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2616,7 +2591,7 @@
       "filename": "107-LucerneOrchestraSession-August26-2014_drifting.wav"
     }, 
     {
-      "index": 843, 
+      "index": 847, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/108-LucerneOrchestraSession-August26-2014_swirling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2626,7 +2601,7 @@
       "filename": "108-LucerneOrchestraSession-August26-2014_swirling.wav"
     }, 
     {
-      "index": 844, 
+      "index": 848, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/109-LucerneOrchestraSession-August26-2014_lush.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2636,7 +2611,7 @@
       "filename": "109-LucerneOrchestraSession-August26-2014_lush.wav"
     }, 
     {
-      "index": 845, 
+      "index": 849, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/110-LucerneOrchestraSession-August26-2014_gentle_glissando_brass.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2648,7 +2623,7 @@
       "filename": "110-LucerneOrchestraSession-August26-2014_gentle_glissando_brass.wav"
     }, 
     {
-      "index": 846, 
+      "index": 850, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/111-LucerneOrchestraSession-August26-2014_smooth_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2659,7 +2634,7 @@
       "filename": "111-LucerneOrchestraSession-August26-2014_smooth_glissando.wav"
     }, 
     {
-      "index": 847, 
+      "index": 851, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/112-LucerneOrchestraSession-August26-2014_crawling_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2670,7 +2645,7 @@
       "filename": "112-LucerneOrchestraSession-August26-2014_crawling_glissando.wav"
     }, 
     {
-      "index": 848, 
+      "index": 852, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/1A-LucerneOrchestraSession-August26-2014_forte.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2680,7 +2655,7 @@
       "filename": "1A-LucerneOrchestraSession-August26-2014_forte.wav"
     }, 
     {
-      "index": 849, 
+      "index": 853, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/1B-LucerneOrchestraSession-August26-2014_bold.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2690,7 +2665,7 @@
       "filename": "1B-LucerneOrchestraSession-August26-2014_bold.wav"
     }, 
     {
-      "index": 850, 
+      "index": 854, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/1C-LucerneOrchestraSession-August26-2014_tense.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2700,7 +2675,7 @@
       "filename": "1C-LucerneOrchestraSession-August26-2014_tense.wav"
     }, 
     {
-      "index": 851, 
+      "index": 855, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/2A-LucerneOrchestraSession-August26-2014_percussive.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2710,7 +2685,7 @@
       "filename": "2A-LucerneOrchestraSession-August26-2014_percussive.wav"
     }, 
     {
-      "index": 852, 
+      "index": 856, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/2B-LucerneOrchestraSession-August26-2014_dark.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2720,7 +2695,7 @@
       "filename": "2B-LucerneOrchestraSession-August26-2014_dark.wav"
     }, 
     {
-      "index": 853, 
+      "index": 857, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3A-LucerneOrchestraSession-August26-2014_scraping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2730,7 +2705,7 @@
       "filename": "3A-LucerneOrchestraSession-August26-2014_scraping.wav"
     }, 
     {
-      "index": 854, 
+      "index": 858, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3B-LucerneOrchestraSession-August26-2014_tremor.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2740,7 +2715,7 @@
       "filename": "3B-LucerneOrchestraSession-August26-2014_tremor.wav"
     }, 
     {
-      "index": 855, 
+      "index": 859, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3C-LucerneOrchestraSession-August26-2014_thick.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2750,7 +2725,7 @@
       "filename": "3C-LucerneOrchestraSession-August26-2014_thick.wav"
     }, 
     {
-      "index": 856, 
+      "index": 860, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3D-LucerneOrchestraSession-August26-2014_gripping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -2789,7 +2764,7 @@
   ], 
   "pulsating": [
     {
-      "index": 829, 
+      "index": 825, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/094-LucerneOrchestraSession-August26-2014_pulsating.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -3874,7 +3849,7 @@
   ], 
   "timpani": [
     {
-      "index": 835, 
+      "index": 832, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/100-LucerneOrchestraSession-August26-2014_timpani_rolls.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -3946,7 +3921,7 @@
   ], 
   "turning": [
     {
-      "index": 791, 
+      "index": 787, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/056-LucerneOrchestraSession-August26-2014_turning.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -3958,7 +3933,7 @@
   ], 
   "shimmer": [
     {
-      "index": 786, 
+      "index": 782, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/051-LucerneOrchestraSession-August26-2014_shimmer_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -4449,7 +4424,7 @@
       "filename": "004-LucerneOrchestraSession-August26-2014_strike.wav"
     }, 
     {
-      "index": 798, 
+      "index": 794, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/063-LucerneOrchestraSession-August26-2014_strike.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -4657,7 +4632,7 @@
   ], 
   "mellow": [
     {
-      "index": 782, 
+      "index": 778, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/047-LucerneOrchestraSession-August26-2014_mellow_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -4708,7 +4683,7 @@
   ], 
   "swooping": [
     {
-      "index": 813, 
+      "index": 809, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/078-LucerneOrchestraSession-August26-2014_swooping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -4718,7 +4693,7 @@
       "filename": "078-LucerneOrchestraSession-August26-2014_swooping.wav"
     }, 
     {
-      "index": 814, 
+      "index": 810, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/079-LucerneOrchestraSession-August26-2014_swooping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -5055,7 +5030,7 @@
   ], 
   "growing": [
     {
-      "index": 792, 
+      "index": 788, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/057-LucerneOrchestraSession-August26-2014_growing_clamoring.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -5064,19 +5039,6 @@
         "clamoring"
       ], 
       "filename": "057-LucerneOrchestraSession-August26-2014_growing_clamoring.wav"
-    }
-  ], 
-  "exhale": [
-    {
-      "index": 770, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/034-LucerneOrchestraSession-August26-2014_soft_exhale.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "soft", 
-        "orchestra", 
-        "exhale"
-      ], 
-      "filename": "034-LucerneOrchestraSession-August26-2014_soft_exhale.wav"
     }
   ], 
   "seagull": [
@@ -5775,7 +5737,7 @@
   ], 
   "trickling": [
     {
-      "index": 839, 
+      "index": 843, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/104-LucerneOrchestraSession-August26-2014_trickling_harp.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -5832,7 +5794,7 @@
       "filename": "day#5_horn_bell_waves_1.wav"
     }, 
     {
-      "index": 838, 
+      "index": 842, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/103-LucerneOrchestraSession-August26-2014_waves.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -5844,7 +5806,7 @@
   ], 
   "warble": [
     {
-      "index": 806, 
+      "index": 802, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/071-LucerneOrchestraSession-August26-2014_warble.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -5867,7 +5829,7 @@
   ], 
   "lifting": [
     {
-      "index": 784, 
+      "index": 780, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/049-LucerneOrchestraSession-August26-2014_lifting.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -5915,7 +5877,7 @@
       "filename": "10-KKL Reverberant English.wav"
     }, 
     {
-      "index": 809, 
+      "index": 805, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/074-LucerneOrchestraSession-August26-2014_reverberant.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -6001,7 +5963,7 @@
   ], 
   "crawling": [
     {
-      "index": 847, 
+      "index": 851, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/112-LucerneOrchestraSession-August26-2014_crawling_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -6231,18 +6193,6 @@
         "drive"
       ], 
       "filename": "17-Motorcycle Drive By.wav"
-    }
-  ], 
-  "quake": [
-    {
-      "index": 778, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/043-LucerneOrchestraSession-August26-2014_quake.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "orchestra", 
-        "quake"
-      ], 
-      "filename": "043-LucerneOrchestraSession-August26-2014_quake.wav"
     }
   ], 
   "pitch": [
@@ -6842,18 +6792,6 @@
       "filename": "13-KKL Thump.wav"
     }
   ], 
-  "clamor": [
-    {
-      "index": 777, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/042-LucerneOrchestraSession-August26-2014_clamor.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "clamor", 
-        "orchestra"
-      ], 
-      "filename": "042-LucerneOrchestraSession-August26-2014_clamor.wav"
-    }
-  ], 
   "coffee": [
     {
       "index": 25, 
@@ -6988,16 +6926,6 @@
         "crew"
       ], 
       "filename": "crew_halt_passingVehicle.wav"
-    }, 
-    {
-      "index": 780, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/045-LucerneOrchestraSession-August26-2014_halt.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "orchestra", 
-        "halt"
-      ], 
-      "filename": "045-LucerneOrchestraSession-August26-2014_halt.wav"
     }
   ], 
   "conversations": [
@@ -7776,7 +7704,7 @@
   ], 
   "slide": [
     {
-      "index": 815, 
+      "index": 811, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/080-LucerneOrchestraSession-August26-2014_slide.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -7788,7 +7716,7 @@
   ], 
   "upward": [
     {
-      "index": 822, 
+      "index": 818, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/087-LucerneOrchestraSession-August26-2014_upward.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -8327,7 +8255,20 @@
   ], 
   "harp": [
     {
-      "index": 832, 
+      "index": 828, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "build", 
+        "orchestra", 
+        "arpeggio", 
+        "sparkling", 
+        "harp"
+      ], 
+      "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav"
+    }, 
+    {
+      "index": 829, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -8340,7 +8281,7 @@
       "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav"
     }, 
     {
-      "index": 839, 
+      "index": 843, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/104-LucerneOrchestraSession-August26-2014_trickling_harp.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -8353,7 +8294,7 @@
   ], 
   "exclamation": [
     {
-      "index": 827, 
+      "index": 823, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/092-LucerneOrchestraSession-August26-2014_exclamation.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -8533,7 +8474,7 @@
       "filename": "1A-LucerneOrchestraSession-August26-2014_forte.wav"
     }, 
     {
-      "index": 848, 
+      "index": 852, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/1A-LucerneOrchestraSession-August26-2014_forte.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -8648,7 +8589,7 @@
       "filename": "064_SlidingParts_Lucern.wav"
     }, 
     {
-      "index": 841, 
+      "index": 845, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/106-LucerneOrchestraSession-August26-2014_sliding.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -8693,7 +8634,7 @@
   ], 
   "drifting": [
     {
-      "index": 842, 
+      "index": 846, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/107-LucerneOrchestraSession-August26-2014_drifting.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -8752,7 +8693,7 @@
       "filename": "026-LucerneOrchestraSession-August26-2014_glissando_ascending_quick.wav"
     }, 
     {
-      "index": 824, 
+      "index": 820, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/089-LucerneOrchestraSession-August26-2014_ascending.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -9537,7 +9478,7 @@
       "filename": "organ_dissonantPad.wav"
     }, 
     {
-      "index": 787, 
+      "index": 783, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/052-LucerneOrchestraSession-August26-2014_dissonant.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -9547,7 +9488,7 @@
       "filename": "052-LucerneOrchestraSession-August26-2014_dissonant.wav"
     }, 
     {
-      "index": 788, 
+      "index": 784, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/053-LucerneOrchestraSession-August26-2014_dissonant.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -9581,7 +9522,7 @@
   ], 
   "unresolved": [
     {
-      "index": 802, 
+      "index": 798, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/067-LucerneOrchestraSession-August26-2014_unresolved.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -9886,7 +9827,7 @@
       "filename": "organ_stabs_3.wav"
     }, 
     {
-      "index": 830, 
+      "index": 826, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/095-LucerneOrchestraSession-August26-2014_stabs.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -9962,17 +9903,7 @@
       "filename": "3C-LucerneOrchestraSession-August26-2014_thick.wav"
     }, 
     {
-      "index": 779, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/044-LucerneOrchestraSession-August26-2014_thick.wav", 
-      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
-      "words": [
-        "thick", 
-        "orchestra"
-      ], 
-      "filename": "044-LucerneOrchestraSession-August26-2014_thick.wav"
-    }, 
-    {
-      "index": 855, 
+      "index": 859, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3C-LucerneOrchestraSession-August26-2014_thick.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -10298,7 +10229,7 @@
   ], 
   "airy": [
     {
-      "index": 781, 
+      "index": 777, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/046-LucerneOrchestraSession-August26-2014_airy.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -10372,7 +10303,7 @@
       "filename": "2A-LucerneOrchestraSession-August26-2014_percussive.wav"
     }, 
     {
-      "index": 851, 
+      "index": 855, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/2A-LucerneOrchestraSession-August26-2014_percussive.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -11277,7 +11208,7 @@
       "filename": "3D-LucerneOrchestraSession-August26-2014_gripping.wav"
     }, 
     {
-      "index": 856, 
+      "index": 860, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3D-LucerneOrchestraSession-August26-2014_gripping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -11506,7 +11437,7 @@
       "filename": "3A-LucerneOrchestraSession-August26-2014_scraping.wav"
     }, 
     {
-      "index": 853, 
+      "index": 857, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3A-LucerneOrchestraSession-August26-2014_scraping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -12850,7 +12781,20 @@
       "filename": "organ_diminishedBuild.wav"
     }, 
     {
-      "index": 832, 
+      "index": 828, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "build", 
+        "orchestra", 
+        "arpeggio", 
+        "sparkling", 
+        "harp"
+      ], 
+      "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav"
+    }, 
+    {
+      "index": 829, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -12985,7 +12929,7 @@
       "filename": "16-KKL wooden clatter.wav"
     }, 
     {
-      "index": 819, 
+      "index": 815, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/084-LucerneOrchestraSession-August26-2014_clatter.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -13041,7 +12985,7 @@
   ], 
   "gentle": [
     {
-      "index": 845, 
+      "index": 849, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/110-LucerneOrchestraSession-August26-2014_gentle_glissando_brass.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -13501,7 +13445,7 @@
   ], 
   "bright": [
     {
-      "index": 796, 
+      "index": 792, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/061-LucerneOrchestraSession-August26-2014_bright.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -13536,7 +13480,7 @@
       "filename": "organ_aggressiveBuild_1.wav"
     }, 
     {
-      "index": 790, 
+      "index": 786, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/055-LucerneOrchestraSession-August26-2014_aggressive_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -13958,7 +13902,7 @@
       "filename": "kkl_highWhistle.wav"
     }, 
     {
-      "index": 825, 
+      "index": 821, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/090-LucerneOrchestraSession-August26-2014_whistle.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -15165,7 +15109,20 @@
       "filename": "organ_arpeggioChaos.wav"
     }, 
     {
-      "index": 832, 
+      "index": 828, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "build", 
+        "orchestra", 
+        "arpeggio", 
+        "sparkling", 
+        "harp"
+      ], 
+      "filename": "097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build-001.wav"
+    }, 
+    {
+      "index": 829, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/097-LucerneOrchestraSession-August26-2014_sparkling_harp_arpeggio_build.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -15313,7 +15270,7 @@
   ], 
   "simmering": [
     {
-      "index": 840, 
+      "index": 844, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/105-LucerneOrchestraSession-August26-2014_simmering.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -16512,14 +16469,76 @@
   ], 
   "jitter": [
     {
-      "index": 836, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneOrchestraSession-August26-2014_jitter.wav", 
+      "index": 833, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter-001.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
-        "jitter", 
-        "orchestra"
+        "jitter"
       ], 
-      "filename": "101-LucerneOrchestraSession-August26-2014_jitter.wav"
+      "filename": "101-LucerneSession-August26-2014_jitter-001.wav"
+    }, 
+    {
+      "index": 834, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter-002.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "jitter"
+      ], 
+      "filename": "101-LucerneSession-August26-2014_jitter-002.wav"
+    }, 
+    {
+      "index": 835, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter-003.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "jitter"
+      ], 
+      "filename": "101-LucerneSession-August26-2014_jitter-003.wav"
+    }, 
+    {
+      "index": 836, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter-004.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "jitter"
+      ], 
+      "filename": "101-LucerneSession-August26-2014_jitter-004.wav"
+    }, 
+    {
+      "index": 837, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter-005.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "jitter"
+      ], 
+      "filename": "101-LucerneSession-August26-2014_jitter-005.wav"
+    }, 
+    {
+      "index": 838, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter-006.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "jitter"
+      ], 
+      "filename": "101-LucerneSession-August26-2014_jitter-006.wav"
+    }, 
+    {
+      "index": 839, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter-007.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "jitter"
+      ], 
+      "filename": "101-LucerneSession-August26-2014_jitter-007.wav"
+    }, 
+    {
+      "index": 840, 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/101-LucerneSession-August26-2014_jitter.wav", 
+      "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
+      "words": [
+        "jitter"
+      ], 
+      "filename": "101-LucerneSession-August26-2014_jitter.wav"
     }
   ], 
   "bell": [
@@ -17167,7 +17186,7 @@
   ], 
   "inquisitive": [
     {
-      "index": 811, 
+      "index": 807, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/076-LucerneOrchestraSession-August26-2014_inquisitive.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -17242,7 +17261,7 @@
       "filename": "3B-LucerneOrchestraSession-August26-2014_tremor.wav"
     }, 
     {
-      "index": 854, 
+      "index": 858, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/3B-LucerneOrchestraSession-August26-2014_tremor.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -17723,7 +17742,7 @@
   ], 
   "cycling": [
     {
-      "index": 833, 
+      "index": 830, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/098-LucerneOrchestraSession-August26-2014_cycling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -17834,7 +17853,7 @@
       "filename": "008-LucerneOrchestraSession-August26-2014_tense.wav"
     }, 
     {
-      "index": 850, 
+      "index": 854, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/1C-LucerneOrchestraSession-August26-2014_tense.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -18148,7 +18167,7 @@
   ], 
   "fearful": [
     {
-      "index": 803, 
+      "index": 799, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/068-LucerneOrchestraSession-August26-2014_fearful.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -18313,7 +18332,7 @@
   ], 
   "lush": [
     {
-      "index": 844, 
+      "index": 848, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/109-LucerneOrchestraSession-August26-2014_lush.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -18402,7 +18421,7 @@
       "filename": "57-KKL Concert Hall AmbientTalking Texture.wav"
     }, 
     {
-      "index": 793, 
+      "index": 789, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/058-LucerneOrchestraSession-August26-2014_ambient.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19049,7 +19068,7 @@
       "filename": "exploring_waterClose_swell.wav"
     }, 
     {
-      "index": 782, 
+      "index": 778, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/047-LucerneOrchestraSession-August26-2014_mellow_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19060,7 +19079,7 @@
       "filename": "047-LucerneOrchestraSession-August26-2014_mellow_swell.wav"
     }, 
     {
-      "index": 786, 
+      "index": 782, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/051-LucerneOrchestraSession-August26-2014_shimmer_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19071,7 +19090,7 @@
       "filename": "051-LucerneOrchestraSession-August26-2014_shimmer_swell.wav"
     }, 
     {
-      "index": 789, 
+      "index": 785, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/054-LucerneOrchestraSession-August26-2014_swell_hanging.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19082,7 +19101,7 @@
       "filename": "054-LucerneOrchestraSession-August26-2014_swell_hanging.wav"
     }, 
     {
-      "index": 790, 
+      "index": 786, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/055-LucerneOrchestraSession-August26-2014_aggressive_swell.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19414,7 +19433,7 @@
   ], 
   "descending": [
     {
-      "index": 823, 
+      "index": 819, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/088-LucerneOrchestraSession-August26-2014_descending.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19546,7 +19565,7 @@
   ], 
   "circling": [
     {
-      "index": 794, 
+      "index": 790, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/059-LucerneOrchestraSession-August26-2014_circling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19935,7 +19954,7 @@
       "filename": "2B-LucerneOrchestraSession-August26-2014_dark.wav"
     }, 
     {
-      "index": 852, 
+      "index": 856, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/2B-LucerneOrchestraSession-August26-2014_dark.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -19947,7 +19966,7 @@
   ], 
   "whispers": [
     {
-      "index": 834, 
+      "index": 831, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/099-LucerneOrchestraSession-August26-2014_whispers.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -20086,7 +20105,7 @@
   ], 
   "intersection": [
     {
-      "index": 812, 
+      "index": 808, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/077-LucerneOrchestraSession-August26-2014_intersection.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -20434,7 +20453,7 @@
   ], 
   "sloping": [
     {
-      "index": 797, 
+      "index": 793, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/062-LucerneOrchestraSession-August26-2014_sloping.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -20526,17 +20545,16 @@
     }, 
     {
       "index": 770, 
-      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/034-LucerneOrchestraSession-August26-2014_soft_exhale.wav", 
+      "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/034-LucerneOrchestraSession-August26-2014_soft.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
         "soft", 
-        "orchestra", 
-        "exhale"
+        "orchestra"
       ], 
-      "filename": "034-LucerneOrchestraSession-August26-2014_soft_exhale.wav"
+      "filename": "034-LucerneOrchestraSession-August26-2014_soft.wav"
     }, 
     {
-      "index": 807, 
+      "index": 803, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/072-LucerneOrchestraSession-August26-2014_soft.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -20572,7 +20590,7 @@
       "filename": "50-KKL The Crowd Enters.wav"
     }, 
     {
-      "index": 826, 
+      "index": 822, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/091-LucerneOrchestraSession-August26-2014_crowd.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -20678,7 +20696,7 @@
   ], 
   "cloud": [
     {
-      "index": 831, 
+      "index": 827, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/096-LucerneOrchestraSession-August26-2014_cloud.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -20690,7 +20708,7 @@
   ], 
   "beating": [
     {
-      "index": 828, 
+      "index": 824, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/093-LucerneOrchestraSession-August26-2014_beating.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -20802,7 +20820,7 @@
       "filename": "1B-LucerneOrchestraSession-August26-2014_bold.wav"
     }, 
     {
-      "index": 849, 
+      "index": 853, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/1B-LucerneOrchestraSession-August26-2014_bold.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21032,7 +21050,7 @@
       "filename": "026-LucerneOrchestraSession-August26-2014_glissando_ascending_quick.wav"
     }, 
     {
-      "index": 801, 
+      "index": 797, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/066-LucerneOrchestraSession-August26-2014_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21042,7 +21060,7 @@
       "filename": "066-LucerneOrchestraSession-August26-2014_glissando.wav"
     }, 
     {
-      "index": 845, 
+      "index": 849, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/110-LucerneOrchestraSession-August26-2014_gentle_glissando_brass.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21054,7 +21072,7 @@
       "filename": "110-LucerneOrchestraSession-August26-2014_gentle_glissando_brass.wav"
     }, 
     {
-      "index": 846, 
+      "index": 850, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/111-LucerneOrchestraSession-August26-2014_smooth_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21065,7 +21083,7 @@
       "filename": "111-LucerneOrchestraSession-August26-2014_smooth_glissando.wav"
     }, 
     {
-      "index": 847, 
+      "index": 851, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/112-LucerneOrchestraSession-August26-2014_crawling_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21091,7 +21109,7 @@
   ], 
   "converging": [
     {
-      "index": 783, 
+      "index": 779, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/048-LucerneOrchestraSession-August26-2014_converging.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21222,7 +21240,7 @@
   ], 
   "rolls": [
     {
-      "index": 835, 
+      "index": 832, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/100-LucerneOrchestraSession-August26-2014_timpani_rolls.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21410,7 +21428,7 @@
       "filename": "organ_lowOctaves.wav"
     }, 
     {
-      "index": 795, 
+      "index": 791, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/060-LucerneOrchestraSession-August26-2014_low_pulsing.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21421,7 +21439,7 @@
       "filename": "060-LucerneOrchestraSession-August26-2014_low_pulsing.wav"
     }, 
     {
-      "index": 820, 
+      "index": 816, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/085-LucerneOrchestraSession-August26-2014_low.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21647,7 +21665,7 @@
   ], 
   "rippling": [
     {
-      "index": 837, 
+      "index": 841, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/102-LucerneOrchestraSession-August26-2014_rippling.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21659,7 +21677,7 @@
   ], 
   "smooth": [
     {
-      "index": 846, 
+      "index": 850, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/111-LucerneOrchestraSession-August26-2014_smooth_glissando.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21757,7 +21775,7 @@
       "filename": "046_DeepTwang_Lucern.wav"
     }, 
     {
-      "index": 821, 
+      "index": 817, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/086-LucerneOrchestraSession-August26-2014_deep.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -21834,7 +21852,7 @@
   ], 
   "tremble": [
     {
-      "index": 805, 
+      "index": 801, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/070-LucerneOrchestraSession-August26-2014_tremble.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -22262,7 +22280,7 @@
   ], 
   "brash": [
     {
-      "index": 810, 
+      "index": 806, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/075-LucerneOrchestraSession-August26-2014_brash.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -22343,7 +22361,7 @@
       "filename": "exploringRainy_squeak.wav"
     }, 
     {
-      "index": 804, 
+      "index": 800, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/069-LucerneOrchestraSession-August26-2014_squeak.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -22355,7 +22373,7 @@
   ], 
   "brass": [
     {
-      "index": 845, 
+      "index": 849, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/110-LucerneOrchestraSession-August26-2014_gentle_glissando_brass.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
@@ -22420,7 +22438,7 @@
   ], 
   "curve": [
     {
-      "index": 816, 
+      "index": 812, 
       "fullname": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra/081-LucerneOrchestraSession-August26-2014_curve.wav", 
       "root": "/Users/charles/projects/nodejs/lucernPlayer/sounds/curated-output/orchestra", 
       "words": [
